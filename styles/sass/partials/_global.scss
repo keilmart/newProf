@@ -5,7 +5,12 @@ html {
 }
 
 ul,
-li {
+li,
+h1,
+h2,
+h3,
+h4,
+h5 {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -21,8 +26,28 @@ h4 {
   font-size: 5rem;
 }
 
+// Scrollbar mods
+body::-webkit-scrollbar {
+  width: 1rem;
+  &:hover {
+    width: 1.3rem;
+    
+  }
+}
+body::-webkit-scrollbar-track {
+  background: white;
+  background: black;
+}
+body::-webkit-scrollbar-thumb {
+  background: #ff2c75;
+  // border-radius: 20px;
+  border-radius: 10px;
+}
+
+
+
 .wrapper {
-  width: 75vw;
+  width: 72vw;
   // max-width: 1200px;
   margin: 0 auto;
   position: relative;

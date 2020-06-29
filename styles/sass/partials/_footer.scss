@@ -3,7 +3,7 @@ footer .wrapper {
   display: flex;
   height: 100%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   /* position: relative; */
 }
@@ -20,7 +20,7 @@ footer .wrapper {
 // }
 
 .footerDesc {
-      height: 55%;
+      height: 70%;
     // display: flex;
     // flex-direction: column;
     // justify-content: flex-end;
@@ -34,15 +34,37 @@ footer .wrapper {
   // align-items: flex-start;
   // position: relative;
   width: 100%;
-  height: 20%;
+  height: 23%;
+
+  h3 {
+  font-family: "Gilroy ExtraBold", system-ui, sans-serif;
+  font-weight: normal;
+  font-size: 5rem;
+  color: #ff2c75;
+
+  }
 
   ul {
-    padding-left: 120px;
+    padding: 15px 0 0 100px;
+    // padding-left: 100px;
+    // padding-top: 10px;
     display: flex;
     flex-direction: column;;
 
     li {
-      padding-bottom: 50px;
+      font-size: 1.9rem;
+      padding-bottom: 30px;
     }
   }
+}
+
+.footerContact:before {
+  content: "";
+    display: block;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 100%;
+    height: 2.3px;
+    background-color: #ff2c75;
 }

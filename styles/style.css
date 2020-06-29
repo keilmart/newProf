@@ -222,7 +222,12 @@ html {
 }
 
 ul,
-li {
+li,
+h1,
+h2,
+h3,
+h4,
+h5 {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -238,8 +243,26 @@ h4 {
   font-size: 5rem;
 }
 
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar:hover {
+  width: 1.3rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ff2c75;
+  border-radius: 10px;
+}
+
 .wrapper {
-  width: 75vw;
+  width: 72vw;
   margin: 0 auto;
   position: relative;
 }
@@ -313,7 +336,7 @@ header title {
 }
 
 header li {
-  font-size: 150px;
+  font-size: 16rem;
 }
 
 header li .github:hover {
@@ -557,9 +580,9 @@ footer .wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -567,7 +590,7 @@ footer .wrapper {
 }
 
 .footerDesc {
-  height: 55%;
+  height: 70%;
 }
 
 .footerContact {
@@ -579,11 +602,18 @@ footer .wrapper {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 100%;
-  height: 20%;
+  height: 23%;
+}
+
+.footerContact h3 {
+  font-family: "Gilroy ExtraBold", system-ui, sans-serif;
+  font-weight: normal;
+  font-size: 5rem;
+  color: #ff2c75;
 }
 
 .footerContact ul {
-  padding-left: 120px;
+  padding: 15px 0 0 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -594,5 +624,17 @@ footer .wrapper {
 }
 
 .footerContact ul li {
-  padding-bottom: 50px;
+  font-size: 1.9rem;
+  padding-bottom: 30px;
+}
+
+.footerContact:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: 0;
+  width: 100%;
+  height: 2.3px;
+  background-color: #ff2c75;
 }
