@@ -1,0 +1,77 @@
+/* GLOBAL STYLES */
+html {
+  font-size: 62.5%;
+  color: black;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: black;
+}
+
+.wrapper {
+  width: 88vw;
+  // max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+  @media (max-width: 1200px) {
+    width: 90vw;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainBackground {
+  height: 100vh;
+  position: relative;
+  color: white;
+  background: #c4c2d8;
+  background: -moz-linear-gradient(
+    328deg,
+    #17123c 20%,
+    #31456d 45%,
+    #17123c 70%,
+    #421739 95%
+  );
+  background: -webkit-linear-gradient(
+    328deg,
+    #17123c 20%,
+    #31456d,
+    #17123c 75%,
+    #421739
+  );
+  background: -webkit-linear-gradient(
+    122deg,
+    #31456d 10%,
+    #17123c 50%,
+    #421739 95%
+  );
+
+  background: -o-linear-gradient(122deg, #421739 5%, #17123c 50%, #31456d 95%);
+  background: linear-gradient(328deg, #421739 5%, #17123c 50%, #31456d 95%);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 8s ease infinite;
+  animation: Gradient 8s ease infinite;
+}
+
+.background_shade {
+  background-color: rgba(0, 0, 0, 0.13);
+  height: 100%;
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}

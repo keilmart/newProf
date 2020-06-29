@@ -1,0 +1,57 @@
+.mainContent {
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  background: white;
+}
+
+.projects {
+  min-height: 100vh;
+  position: relative;
+}
+
+.project {
+  height: 70vh;
+  position: relative;
+  margin: 200px 0 60px;
+}
+
+.projectImg {
+  position: absolute;
+  right: 23%;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
+}
+
+.projectImgTwo {
+  position: absolute;
+  left: 23%;
+  border-radius: 5px;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
+}
+
+.imageHold {
+  z-index: 1;
+}
+
+.imgBacker {
+  position: absolute;
+  background-color: #F2F2F2;
+  width: 57vw;
+  height: 57vh;
+  top: 0;
+  left: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
+}
+
+.imgBackerTwo {
+  position: absolute;
+  background-color: #F2F2F2;
+  width: 57vw;
+  height: 57vh;
+  top: 0;
+  right: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
+}
