@@ -9,7 +9,6 @@ header .wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
 }
 
 header title {
@@ -41,7 +40,6 @@ header li {
 }
 
 .logo-box {
-  // width: 30vw;
   max-width: 700px;
   min-width: 280px;
   z-index: 100;
