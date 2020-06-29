@@ -38,9 +38,10 @@
 
 .imgBacker {
   position: absolute;
+  margin-left: 5%;
   background-color: #F2F2F2;
-  width: 57vw;
-  height: 57vh;
+  width: 54vw;
+  height: 70vh;
   top: 0;
   left: 0;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
@@ -48,9 +49,10 @@
 
 .imgBackerTwo {
   position: absolute;
+  margin-right: 5%;
   background-color: #F2F2F2;
-  width: 57vw;
-  height: 57vh;
+  width: 54vw;
+  height: 70vh;
   top: 0;
   right: 0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);

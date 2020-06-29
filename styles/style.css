@@ -232,8 +232,14 @@ h2 {
   color: black;
 }
 
+h4 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+}
+
 .wrapper {
-  width: 88vw;
+  width: 75vw;
   margin: 0 auto;
   position: relative;
 }
@@ -311,7 +317,7 @@ header li {
 }
 
 header li .github:hover {
-  color: black;
+  color: grey;
 }
 
 header li .linked:hover {
@@ -323,7 +329,7 @@ header li .twitter:hover {
 }
 
 header li .medium:hover {
-  color: black;
+  color: grey;
 }
 
 .logo-box {
@@ -520,9 +526,10 @@ body {
 
 .imgBacker {
   position: absolute;
+  margin-left: 5%;
   background-color: #F2F2F2;
-  width: 57vw;
-  height: 57vh;
+  width: 54vw;
+  height: 70vh;
   top: 0;
   left: 0;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
@@ -531,27 +538,61 @@ body {
 
 .imgBackerTwo {
   position: absolute;
+  margin-right: 5%;
   background-color: #F2F2F2;
-  width: 57vw;
-  height: 57vh;
+  width: 54vw;
+  height: 70vh;
   top: 0;
   right: 0;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
 }
 
-.footerContent {
-  height: 55vh;
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* position: relative; */
 }
 
 .footerDesc {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  height: 55%;
 }
 
 .footerContact {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 20%;
+}
+
+.footerContact ul {
+  padding-left: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footerContact ul li {
+  padding-bottom: 50px;
 }
