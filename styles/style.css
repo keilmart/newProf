@@ -233,22 +233,29 @@ h5 {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
   color: black;
 }
 
 h4 {
   color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 5rem;
+  font-family: "Gilroy ExtraBold", system-ui, sans-serif;
+  font-weight: normal;
+  font-size: 4.5rem;
 }
 
 body::-webkit-scrollbar {
-  width: 1rem;
+  width: .7rem;
 }
 
 body::-webkit-scrollbar:hover {
-  width: 1.3rem;
+  width: 1rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -341,18 +348,26 @@ header li {
 
 header li .github:hover {
   color: grey;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 header li .linked:hover {
   color: #0c62a6;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 header li .twitter:hover {
   color: #0c62a6;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 header li .medium:hover {
   color: grey;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 .logo-box {
@@ -571,6 +586,20 @@ body {
           box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
 }
 
+.numberHold {
+  display: inline-block;
+  left: 10%;
+  top: 10%;
+  position: relative;
+}
+
+.numberHold h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 40rem;
+  color: rgba(120, 116, 118, 0.06);
+}
+
 footer .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -593,6 +622,10 @@ footer .wrapper {
   height: 70%;
 }
 
+.footerDesc h4 {
+  line-height: 7rem;
+}
+
 .footerContact {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -613,7 +646,7 @@ footer .wrapper {
 }
 
 .footerContact ul {
-  padding: 15px 0 0 100px;
+  padding: 12px 0 0 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -624,15 +657,25 @@ footer .wrapper {
 }
 
 .footerContact ul li {
-  font-size: 1.9rem;
-  padding-bottom: 30px;
+  font-size: 1.6rem;
+  padding-bottom: 25px;
+}
+
+.footerContact ul li a {
+  color: white;
+}
+
+.footerContact ul li a:hover {
+  color: #ff2c75;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 .footerContact:before {
   content: "";
   display: block;
   position: absolute;
-  top: -35px;
+  top: -30px;
   left: 0;
   width: 100%;
   height: 2.3px;
