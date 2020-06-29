@@ -525,7 +525,6 @@ body {
 .mainContent {
   min-height: 100vh;
   position: relative;
-  color: white;
   background: white;
 }
 
@@ -538,6 +537,25 @@ body {
   height: 70vh;
   position: relative;
   margin: 200px 0 60px;
+}
+
+.project h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 40rem;
+  color: rgba(120, 116, 118, 0.06);
+}
+
+.projectDesc {
+  position: absolute;
+  right: 50%;
+  bottom: 20%;
+}
+
+.projectDescTwo {
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
 }
 
 .projectImg {
@@ -589,15 +607,16 @@ body {
 .numberHold {
   display: inline-block;
   left: 10%;
-  top: 10%;
+  top: -10%;
   position: relative;
 }
 
-.numberHold h4 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  font-size: 40rem;
-  color: rgba(120, 116, 118, 0.06);
+.numberHoldTwo {
+  display: inline-block;
+  -webkit-transform: translate(90%, 0);
+          transform: translate(90%, 0);
+  top: -10%;
+  position: relative;
 }
 
 footer .wrapper {
