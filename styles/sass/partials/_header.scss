@@ -14,18 +14,54 @@ header .wrapper {
 header title {
   z-index: 1000;
 }
-// CHANGE THIS //
+
+// side sticky menu //
+.mainNav {
+  position: sticky;
+  top: 35%;
+  left: 0px;
+  padding-left: 20px;
+  width: 5%;
+  z-index: 1000;
+   .mainMenu {
+     margin: 0;
+     padding: 0;
+
+    .mainItem {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      height: 50px;
+
+      .mainLink {
+        font-family: 'Oswald', sans-serif;
+        color: $black-color;
+        font-weight: bold;
+        font-size: 2rem;
+        z-index: 1000;
+        position: relative;
+      }
+
+      // CHANGE THIS // 
+      .mainLink:hover {
+        color: blue;
+      }
+    }
+  }
+}
+
 header li {
   font-size: 16rem;
 
   .github:hover {
     color: grey;
-      transition: all .4s ease;
+    transition: all .4s ease;
   }
 
   .linked:hover {
     color: #0c62a6;
-      transition: all .4s ease;
+    transition: all .4s ease;
   }
 
   .twitter:hover {

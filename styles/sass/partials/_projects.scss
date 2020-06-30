@@ -4,47 +4,76 @@
   background: white;
 }
 
-.projects {
-  min-height: 100vh;
-  position: relative;
-}
-
 .project {
   height: 70vh;
   position: relative;
-  margin: 200px 0 60px;
+  margin: 100px 0 220px 0;
 
     h4 {
       font-family: 'Oswald', sans-serif;
       font-weight: bold;
-      font-size: 40rem;
+      font-size: 42rem;
       color: rgba(120, 116, 118, 0.06);
   }
 }
 
 .projectDesc {
+  width: 400px;
   position: absolute;
-  right: 50%;
-  bottom: 20%;
-}
+  left: 37%;
+  bottom: 17%;
 
-.projectDescTwo {
-  position: absolute;
-  left: 50%;
-  bottom: 20%;
+  .secondDesc {
+    right: 45%;
+  }
+
+  p {
+    margin: 10px 0 15px 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    font-size: 1.9rem;
+    color: $black-color;
+    border-bottom: 1.5px solid rgb(172, 172, 172);
+    margin-right: 20px;
+    padding-bottom: 3px;
+  }
+
+  a:hover {
+  border-bottom: 1.5px solid $black-color;
+  transition: all .6s ease;
+  }
+
+  .skill {
+    color: $split-color;;
+  }
+
+  .accent {
+    color: green;
+  }
 }
 
 .projectImg {
   position: absolute;
   right: 23%;
+  bottom: -12%;
   border-radius: 5px;
   z-index: 10;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
+
+  // .secondImg {
+  //   left: 23%;
+  // }
 }
 
 .projectImgTwo {
   position: absolute;
   left: 23%;
+  // bottom ? //
   border-radius: 5px;
   z-index: 10;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
@@ -63,6 +92,7 @@
   top: 0;
   left: 0;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
+  
 }
 
 .imgBackerTwo {
@@ -85,8 +115,8 @@
 
   .numberHoldTwo {
     display: inline-block;
-    transform: translate(90%, 0);
-    // right: 10%;
+    // transform: translate(90%, 0);
+    right: -30%;
     top: -10%;
     position: relative;
 }

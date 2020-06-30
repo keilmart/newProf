@@ -1,9 +1,10 @@
 /* GLOBAL STYLES */
 html {
   font-size: 62.5%;
-  color: black;
+  color: $black-color;
 }
 
+p,
 ul,
 li,
 h1,
@@ -16,14 +17,20 @@ h5 {
   padding: 0;
 }
 
+p {
+  font-size: 1.7rem;
+}
+
 a {
   text-decoration: none;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 3rem;
-  color: black;
+  font-size: 6.5rem;
+  font-weight: normal;
+  color: $black-color;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -43,15 +50,13 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-track {
   background: white;
-  background: black;
+  background: $black-color;
 }
 body::-webkit-scrollbar-thumb {
-  background: #ff2c75;
+  background: $split-color;
   // border-radius: 20px;
   border-radius: 10px;
 }
-
-
 
 .wrapper {
   width: 72vw;
@@ -60,7 +65,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
 
   @media (max-width: 1200px) {
-    width: 90vw;
+    width: 80vw;
   }
 }
 
