@@ -9,7 +9,10 @@
   <meta name="author" content="Keil Martin" />
   <title>Keil Martin - Front-End Developer</title>
   <!-- link to animate on scroll -->
-  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" /> -->
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
   <!-- Link to new google fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet"
@@ -21,11 +24,13 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805559-1"></script> -->
   <link rel="stylesheet" href="styles/style.css" />
+  <link rel="shortcut icon" href="styles/assets/favicon-32x32.png" />
+  <title>Keil Martin</title>
 </head>
 
 <body>
   <!-- header -->
-  <header class="landing mainBackground">
+  <header class="landing mainBackground" data-aos="fade">
     <div class="background_shade"></div>
     <div class="wrapper">
       <ul class="fabicon-bar">
@@ -38,8 +43,9 @@
       <div class="logo-box">
         <div class="Menu">
           <ul class="Menu-list" data-offset="10">
-            <li class="Menu-list-item" data-offset="20" onclick><span class="Mask"><span>keil</span></span>
-              <span class="Mask"><span>keil</span></span></a>
+            <li class="Menu-list-item" data-offset="20" onclick><a href="https://medium.com/@keilwmartin"><span
+                  class="Mask"><span>keil</span></span>
+                <span class="Mask"><span>keil</span></span></a>
               keil
             </li>
           </ul>
@@ -75,7 +81,7 @@
     </nav>
     <!-- side sticky ends -->
     <ul class="projects">
-      <li class="flex-container project">
+      <li class="flex-container project" data-aos="fade">
         <img class="projectImg" src="styles/assets/iphone.png" alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
         <div class="imgBacker">
           <div class="numberHold">
@@ -92,7 +98,7 @@
           </div>
         </div>
       </li>
-      <li class="flex-container project">
+      <li class="flex-container project" data-aos="fade">
         <img class="projectImgTwo" src="styles/assets/iphone.png" alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
         <div class="imgBackerTwo">
           <div class="numberHoldTwo">
@@ -109,7 +115,7 @@
           </div>
         </div>
       </li>
-      <li class="flex-container project">
+      <li class="flex-container project" data-aos="fade">
         <img class="projectImg" src="styles/assets/iphone.png" alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
         <div class="imgBacker">
           <div class="numberHold">
@@ -126,7 +132,7 @@
           </div>
         </div>
       </li>
-      <li class="flex-container project">
+      <li class="flex-container project" data-aos="fade">
         <img class="projectImgTwo" src="styles/assets/iphone.png" alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
         <div class="imgBackerTwo">
           <div class="numberHoldTwo">
@@ -148,7 +154,7 @@
   <!-- main ends -->
 
   <!-- footer -->
-  <footer id="footer">
+  <footer id="footer" data-aos="fade">
     <section class="mainBackground footerContent">
       <div class="background_shade"></div>
       <div class="wrapper">
@@ -172,11 +178,11 @@
       </div>
     </section>
   </footer>
-  </div>
   <!-- footer ends -->
 
   <!-- Scripts for jquery and external Script.js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 

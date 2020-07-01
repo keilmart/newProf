@@ -1,3 +1,7 @@
+AOS.init({
+  duration: 1700,
+})
+
 var $menu = $(".Menu-list"),
   $item = $(".Menu-list-item"),
   w = $(window).width(), //window width

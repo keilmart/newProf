@@ -390,35 +390,46 @@ header title {
 }
 
 .mainNav .mainMenu .mainItem .mainLink:hover {
-  color: blue;
+  color: #ff2c75;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 header li {
   font-size: 16rem;
 }
 
+header li .github {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 header li .github:hover {
   color: grey;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-animation-name: bounce-5;
+          animation-name: bounce-5;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
 }
 
 header li .linked:hover {
   color: #0c62a6;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 header li .twitter:hover {
   color: #0c62a6;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 header li .medium:hover {
   color: grey;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .logo-box {
@@ -573,6 +584,68 @@ body {
   }
 }
 
+@-webkit-keyframes github {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+            transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.9, 1.1) translateY(-100px);
+            transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(-7px);
+            transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+
+@keyframes github {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+            transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.9, 1.1) translateY(-100px);
+            transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(-7px);
+            transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+
 .mainContent {
   min-height: 100vh;
   position: relative;
@@ -625,12 +698,8 @@ body {
   transition: all .6s ease;
 }
 
-.projectDesc .skill {
-  color: #ff2c75;
-}
-
 .projectDesc .accent {
-  color: green;
+  color: #ff2c75;
 }
 
 .projectImg {
@@ -717,6 +786,7 @@ footer .wrapper {
 
 .footerDesc h4 {
   line-height: 7rem;
+  z-index: 10;
 }
 
 .footerContact {

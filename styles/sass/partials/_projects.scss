@@ -48,12 +48,12 @@
   transition: all .6s ease;
   }
 
-  .skill {
-    color: $split-color;;
-  }
+  // .skill {
+  //   color: $split-color;;
+  // }
 
   .accent {
-    color: green;
+    color: $split-color;
   }
 }
 
