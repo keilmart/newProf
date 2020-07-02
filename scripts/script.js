@@ -7,34 +7,6 @@ var $menu = $(".Menu-list"),
   w = $(window).width(), //window width
   h = $(window).height(); //window height
 
-// console.clear();
-
-// const app = (() => {
-//   let body;
-//   let menu;
-//   let menuItems;
-
-//   const init = () => {
-//     body = document.querySelector("body");
-//     menu = document.querySelector(".menu-icon");
-//     menuItems = document.querySelectorAll(".nav__list-item");
-
-//     applyListeners();
-//   };
-
-//   const applyListeners = () => {
-//     menu.addEventListener("click", () => toggleClass(body, "nav-active"));
-//   };
-
-//   const toggleClass = (element, stringClass) => {
-//     if (element.classList.contains(stringClass))
-//       element.classList.remove(stringClass);
-//     else element.classList.add(stringClass);
-//   };
-
-//   init();
-// })();
-
 $(window).on("mousemove", function (e) {
   var offsetX = 0.5 - e.pageX / w, //cursor position X
     offsetY = 0.5 - e.pageY / h, //cursor position Y
