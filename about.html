@@ -11,8 +11,8 @@
     <title>Keil Martin - About & Projects</title>
     <!-- link to animate on scroll -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- link to google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:600,500|Playfair+Display"
+    <!-- Link to new google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
     <!-- Link to font awesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" />
@@ -33,7 +33,7 @@
                             Check out my skills page.</a></h4>
                 </div>
                 <div class="flex-container splashContact">
-                    <a href="#projectOne" class='icon-scroll'></a>
+                    <a href="#mainContent" class='icon-scroll'></a>
                 </div>
             </div>
         </section>
@@ -41,7 +41,7 @@
     <!-- header ends -->
 
     <!-- side sticky menu -->
-    <main class="mainContent">
+    <main class="mainContent" id="mainContent">
         <nav class="mainNav">
             <ul class="mainMenu">
                 <li class="mainItem">
@@ -66,7 +66,7 @@
                 <li class="mainItem">
                     <a class="mainLink" href="mailto:keilwmartin@gmail.com">04</a>
                     <a id="hiddenText" href="mailto:keilwmartin@gmail.com">
-                        <p>Email</p>
+                        <p>Contact</p>
                     </a>
                 </li>
             </ul>
@@ -74,38 +74,42 @@
         <!-- side sticky ends -->
 
         <!-- main starts -->
-        <ul class="projects" id="projects">
-            <li class="flex-container project" id="projectOne" data-aos="fade">
+        <!-- project 1 begins -->
+        <li class="project" id="projectOne" data-aos="fade">
+            <div class="flex-container projectFlex">
+                <div class="projectDesc">
+                    <h2>6ix beats</h2>
+                    <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
+                    <p class="skill">jQuery <span class="accent">/</span> 2 API's <span class="accent">/</span>
+                        ScSS
+                        <span class="accent">/</span> HTML5</p>
+                    <ul>
+                        <li><a href="">View Project</a></li>
+                        <li><a href="">Github</a></li>
+                    </ul>
+                </div>
                 <div class="imageHold">
                     <img class="projectImg" src="styles/assets/macscreen-01.png"
                         alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
                 </div>
-                <div class="imgBacker">
-                    <div class="numberHold">
-                        <h4>01</h4>
-                    </div>
-                    <div class="projectDesc">
-                        <h2>6ix Beats</h2>
-                        <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
-                        <p class="skill">React <span class="accent">/</span> API <span class="accent">/</span> ScSS
-                            <span class="accent">/</span> HTML5</p>
-                        <ul>
-                            <li><a href="">View Project</a></li>
-                            <li><a href="">Github</a></li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="imgBacker">
+                <div class="numberHold">
+                    <h4>01</h4>
                 </div>
-            </li>
-            <li class="flex-container project" data-aos="fade">
+            </div>
+        </li>
+        <!-- project 1 ends -->
+
+        <!-- project 2 begins -->
+        <li class="project" data-aos="fade">
+            <div class="flex-container projectFlexTwo">
                 <div class="imageHoldTwo">
                     <img class="projectImgTwo" src="styles/assets/macscreen-02.png"
                         alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
                 </div>
-                <div class="imgBackerTwo">
-                    <div class="numberHoldTwo">
-                        <h4>02</h4>
-                    </div>
-                    <div class="projectDesc secondDesc">
+                <div class="projectDesc secondDesc">
+                    <div class="secondDesc">
                         <h2>GoP</h2>
                         <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
                         <p class="skill">React <span class="accent">/</span> 3 API's <span class="accent">/</span> ScSS
@@ -116,52 +120,69 @@
                         </ul>
                     </div>
                 </div>
-            </li>
-            <li class="flex-container project" data-aos="fade">
+            </div>
+            <div class="imgBackerTwo">
+                <div class="numberHoldTwo">
+                    <h4>02</h4>
+                </div>
+            </div>
+        </li>
+        <!-- project 2 ends -->
+
+        <!-- project 3 begins -->
+        <li class="project" data-aos="fade">
+            <div class="flex-container projectFlex">
+                <div class="projectDesc">
+                    <h2>f & f</h2>
+                    <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
+                    <p class="skill">jQuery <span class="accent">/</span> 2 API's <span class="accent">/</span>
+                        ScSS
+                        <span class="accent">/</span> HTML5</p>
+                    <ul>
+                        <li><a href="">View Project</a></li>
+                        <li><a href="">Github</a></li>
+                    </ul>
+                </div>
                 <div class="imageHold">
                     <img class="projectImg" src="styles/assets/macscreen-03.png"
                         alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
                 </div>
-                <div class="imgBacker">
-                    <div class="numberHold">
-                        <h4>03</h4>
-                    </div>
-                    <div class="projectDesc">
-                        <h2>f & f</h2>
-                        <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
-                        <p class="skill">jQuery <span class="accent">/</span> 2 API's <span class="accent">/</span>
-                            ScSS
-                            <span class="accent">/</span> HTML5</p>
-                        <ul>
-                            <li><a href="">View Project</a></li>
-                            <li><a href="">Github</a></li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="imgBacker">
+                <div class="numberHold">
+                    <h4>03</h4>
                 </div>
-            </li>
-            <li class="flex-container project" data-aos="fade">
+            </div>
+        </li>
+        <!-- project 3 ends -->
+
+        <!-- project 4 begins -->
+        <li class="project" data-aos="fade">
+            <div class="flex-container projectFlexTwo">
                 <div class="imageHoldTwo">
-                    <img class="projectImgTwo" src="styles/assets/macscreen-04.png"
+                    <img class="projectImgTwo" src="styles/assets/macscreen-02.png"
                         alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
                 </div>
-                <div class="imgBackerTwo">
-                    <div class="numberHoldTwo">
-                        <h4>04</h4>
-                    </div>
-                    <div class="projectDesc">
-                        <h2>moodfood</h2>
-                        <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
-                        <p class="skill">jQuery <span class="accent">/</span> CsSS
-                            <span class="accent">/</span> HTML5</p>
-                        <ul>
-                            <li><a href="">View Project</a></li>
-                            <li><a href="">Github</a></li>
-                        </ul>
-                    </div>
+                <div class="projectDesc secondDesc">
+                    <h2>GoP</h2>
+                    <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
+                    <p class="skill">React <span class="accent">/</span> 3 API's <span class="accent">/</span> ScSS
+                        <span class="accent">/</span> HTML5</p>
+                    <ul>
+                        <li><a href="">View Project</a></li>
+                        <li><a href="">Github</a></li>
+                    </ul>
                 </div>
-            </li>
+            </div>
+            <div class="imgBackerTwo">
+                <div class="numberHoldTwo">
+                    <h4>02</h4>
+                </div>
+            </div>
+        </li>
         </ul>
     </main>
+    <!-- project 4 ends -->
     <!-- main ends -->
 
     <!-- footer -->

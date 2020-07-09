@@ -55,6 +55,9 @@ header title {
 #hiddenText {
   display:none;
   margin-left: 10px;
+  padding: 7px;
+  border-radius: 25px;
+  border: 1.5px solid $split-color;
 
   p {
     color: $black-color;
@@ -64,6 +67,7 @@ header title {
 .mainItem:hover #hiddenText {
   transition: all .4s ease;
   display: block;
+  background-color: white;
 }
 
 header li {

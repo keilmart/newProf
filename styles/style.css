@@ -524,6 +524,9 @@ header title {
 #hiddenText {
   display: none;
   margin-left: 10px;
+  padding: 7px;
+  border-radius: 25px;
+  border: 1.5px solid #ff2c75;
 }
 
 #hiddenText p {
@@ -534,6 +537,7 @@ header title {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   display: block;
+  background-color: white;
 }
 
 header li {
@@ -856,6 +860,26 @@ body {
           animation-name: scroll;
 }
 
+.projectFlex {
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 100px;
+  padding-left: 150px;
+}
+
+.projectFlexTwo {
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 100px;
+  padding-right: 150px;
+}
+
 .project {
   height: 70vh;
   position: relative;
@@ -864,20 +888,14 @@ body {
 
 .project h4 {
   font-family: 'Oswald', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 42rem;
-  color: rgba(120, 116, 118, 0.06);
+  color: #EBEBEB;
 }
 
 .projectDesc {
-  width: 400px;
-  position: absolute;
-  left: 25%;
-  bottom: 17%;
-}
-
-.projectDesc .secondDesc {
-  right: 30%;
+  max-width: 390px;
+  z-index: 10;
 }
 
 .projectDesc p {
@@ -891,13 +909,11 @@ body {
 .projectDesc a {
   font-size: 1.9rem;
   color: black;
-  border-bottom: 1.5px solid #acacac;
   margin-right: 20px;
-  padding-bottom: 3px;
 }
 
 .projectDesc a:hover {
-  border-bottom: 1.5px solid black;
+  color: #ff2c75;
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
 }
@@ -907,74 +923,61 @@ body {
 }
 
 .imageHold {
-  position: absolute;
-  height: 45%;
-  width: 45%;
-  right: 5%;
-  bottom: 5%;
+  max-width: 820px;
+  padding-left: 90px;
+  z-index: 10;
 }
 
 .imageHoldTwo {
-  position: absolute;
-  height: 45%;
-  width: 45%;
-  left: 5%;
-  bottom: 5%;
+  max-width: 820px;
+  padding-right: 90px;
+  z-index: 10;
 }
 
 .projectImg {
-  position: absolute;
-  width: 100%;
-  z-index: 10;
+  max-width: 100%;
 }
 
 .projectImgTwo {
-  position: absolute;
   width: 100%;
-  border-radius: 5px;
-  z-index: 10;
 }
 
 .imageHold {
-  z-index: 1;
+  z-index: 10;
 }
 
 .imgBacker {
   position: absolute;
-  margin-left: 8%;
-  background-color: #F2F2F2;
-  width: 58vw;
-  height: 70vh;
+  margin-left: 6%;
+  background-color: #F7F7F7;
+  width: 57vw;
+  height: 58vh;
   top: 0;
   left: 0;
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
-          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
 }
 
 .imgBackerTwo {
   position: absolute;
-  margin-right: 8%;
-  background-color: #F2F2F2;
-  width: 58vw;
-  height: 70vh;
+  margin-right: 6%;
+  background-color: #F7F7F7;
+  width: 57vw;
+  height: 58vh;
   top: 0;
   right: 0;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(235, 235, 235, 0.2);
 }
 
 .numberHold {
   display: inline-block;
-  left: 10%;
-  top: -3%;
   position: relative;
+  left: 2%;
+  bottom: 36%;
 }
 
 .numberHoldTwo {
   display: inline-block;
-  right: -30%;
-  top: -3%;
   position: relative;
+  left: 36%;
+  bottom: 36%;
 }
 
 .skillsPage .splashDesc {
