@@ -1,3 +1,4 @@
+// aos animations init //
 AOS.init({
   duration: 1700,
 })
@@ -7,6 +8,7 @@ var $menu = $(".Menu-list"),
   w = $(window).width(), //window width
   h = $(window).height(); //window height
 
+// header on main page mods //
 $(window).on("mousemove", function (e) {
   var offsetX = 0.5 - e.pageX / w, //cursor position X
     offsetY = 0.5 - e.pageY / h, //cursor position Y

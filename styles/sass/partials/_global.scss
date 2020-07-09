@@ -1,6 +1,7 @@
 /* GLOBAL STYLES */
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
   color: $black-color;
 }
 
@@ -38,6 +39,14 @@ h4 {
   font-family: "Gilroy ExtraBold", system-ui, sans-serif;
   font-weight: normal;
   font-size: 4.5rem;
+
+  @media (max-width: 800px) {
+    font-size: 2.8rem;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 2.4rem;
+  }
 }
 
 // Scroll bar mods // 
@@ -60,7 +69,7 @@ body::-webkit-scrollbar-thumb {
 
 .wrapper {
   width: 72vw;
-  // max-width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
 
@@ -117,3 +126,95 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   z-index: 1;
 }
+
+.mainSplash .wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.splashDesc {
+  height: 70%;
+
+  h4 {
+    line-height: 7rem;
+    z-index: 10;
+
+    @media (max-width: 600px) {
+      line-height: 4.5rem;
+    } 
+  }
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+        color: $split-color;
+        transition: all .4s ease;
+  }
+}
+
+.splashContact {
+  align-items: flex-start;
+  position: relative;
+  justify-content: flex-start;
+  width: 100%;
+  height: 23%;
+
+  h3 {
+  font-family: "Gilroy ExtraBold", system-ui, sans-serif;
+  font-weight: normal;
+  font-size: 5rem;
+  color: $split-color;
+  }
+
+  ul {
+    padding: 12px 0 0 100px;
+    display: flex;
+    flex-direction: column;;
+
+    li {
+      font-size: 1.6rem;
+      padding-bottom: 25px;
+
+      a {
+        color: white;
+      }
+
+      a:hover {
+        color: $split-color;
+        transition: all .4s ease;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    h3 {
+      font-size: 3.5rem;
+    }
+
+    ul {
+      padding: 9px 0 0 50px;
+
+      li {
+        font-size: 1.3rem;
+        padding-bottom: 20px;
+    }
+    }
+  }
+}
+
+.splashContact:before {
+  content: "";
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 2.3px;
+    background-color: $split-color;
+}
+

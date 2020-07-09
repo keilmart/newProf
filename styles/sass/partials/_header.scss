@@ -52,6 +52,20 @@ header title {
   }
 }
 
+#hiddenText {
+  display:none;
+  margin-left: 10px;
+
+  p {
+    color: $black-color;
+  }
+}
+
+.mainItem:hover #hiddenText {
+  transition: all .4s ease;
+  display: block;
+}
+
 header li {
   font-size: 16rem;
 
@@ -73,12 +87,16 @@ header li {
 
   .twitter:hover {
     color: #0c62a6;
-      transition: all .5s ease;
+    transition: all .5s ease;
   }
 
   .medium:hover {
     color: grey;
-      transition: all .5s ease;
+    transition: all .5s ease;
+  }
+
+  @media (max-width: 675px) {
+    font-size: 10rem;
   }
 }
 

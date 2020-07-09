@@ -5,53 +5,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Keil Martin Portfolio Website">
+    <meta name="keywords" content="Keil, Martin, Developer, Front-End Developer, Javascript, Programmer, Portfolio">
+    <meta name="author" content="Keil Martin">
     <title>Keil Martin - About & Projects</title>
     <!-- link to animate on scroll -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- link to google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:600,500|Playfair+Display"
         rel="stylesheet">
-
-    <link rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
     <!-- Link to font awesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" />
     <!-- link to stylesheet -->
-    <!-- <link rel="stylesheet" href="./public/styles/style.css" /> -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137805559-1"></script> -->
     <link rel="shortcut icon" href="styles/assets/favicon-32x32.png" />
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 
 <body>
-    <!-- main content-->
-
-
-    <footer id="footer" data-aos="fade">
-        <section class="mainBackground footerContent">
+    <!-- header starts -->
+    <header class="mainSplash" data-aos="fade">
+        <section class="mainBackground splashContent">
             <div class="background_shade"></div>
             <div class="wrapper">
-                <div class="flex-container footerDesc">
-                    <h4>THIS IS ABOUT ME</h4>
+                <div class="flex-container splashDesc">
+                    <h4>Front-End Developer based in Toronto. Using my background in engineering, I create an
+                        interactive and user friendly experience for many tech platforms. <a href="skills.html">
+                            Check out my skills page.</a></h4>
                 </div>
-                <div class="flex-container footerContact">
-                    <!-- <h3>keil</h3>
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Skills</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/keil-martin/">Linked In</a></li>
-                        <li><a href="https://github.com/keilmart">GitHub</a></li>
-                        <li><a href="mailto:keilwmartin@gmail.com">Contact</a></li>
-                    </ul> -->
+                <div class="flex-container splashContact">
+                    <a href="#projectOne" class='icon-scroll'></a>
                 </div>
             </div>
         </section>
-    </footer>
-
+    </header>
+    <!-- header ends -->
 
     <!-- side sticky menu -->
     <main class="mainContent">
@@ -59,24 +46,40 @@
             <ul class="mainMenu">
                 <li class="mainItem">
                     <a class="mainLink" href="index.html">01</a>
+                    <a id="hiddenText" href="index.html">
+                        <p>Home</p>
+                    </a>
                 </li>
                 <li class="mainItem">
                     <a class="mainLink" href="about.html">02</a>
+                    <a id="hiddenText" href="about.html">
+                        <p>About</p>
+                    </a>
                 </li>
                 <li class="mainItem">
                     <a class="mainLink" href="skills.html">03</a>
+                    <a id="hiddenText" href="skills.html">
+                        <p>Skills</p>
+                    </a>
                 </li>
                 <!-- CHANGE THIS TO CONTACT -->
                 <li class="mainItem">
                     <a class="mainLink" href="mailto:keilwmartin@gmail.com">04</a>
+                    <a id="hiddenText" href="mailto:keilwmartin@gmail.com">
+                        <p>Email</p>
+                    </a>
                 </li>
             </ul>
         </nav>
         <!-- side sticky ends -->
-        <ul class="projects">
-            <li class="flex-container project" data-aos="fade">
-                <img class="projectImg" src="styles/assets/iphone.png"
-                    alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
+
+        <!-- main starts -->
+        <ul class="projects" id="projects">
+            <li class="flex-container project" id="projectOne" data-aos="fade">
+                <div class="imageHold">
+                    <img class="projectImg" src="styles/assets/macscreen-01.png"
+                        alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
+                </div>
                 <div class="imgBacker">
                     <div class="numberHold">
                         <h4>01</h4>
@@ -84,7 +87,8 @@
                     <div class="projectDesc">
                         <h2>6ix Beats</h2>
                         <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
-                        <p class="skill">React <span class="accent">|</span> API <span class="accent">|</span> Java</p>
+                        <p class="skill">React<span class="accent">/</span>API<span class="accent">/</span>ScSS
+                            </span>HTML5<span class="accent">/</span>ScSS</p>
                         <ul>
                             <li><a href="">View Project</a></li>
                             <li><a href="">Github</a></li>
@@ -93,8 +97,10 @@
                 </div>
             </li>
             <li class="flex-container project" data-aos="fade">
-                <img class="projectImgTwo" src="styles/assets/iphone.png"
-                    alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
+                <div class="imageHoldTwo">
+                    <img class="projectImgTwo" src="styles/assets/macscreen-02.png"
+                        alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
+                </div>
                 <div class="imgBackerTwo">
                     <div class="numberHoldTwo">
                         <h4>02</h4>
@@ -102,7 +108,7 @@
                     <div class="projectDesc secondDesc">
                         <h2>GoP</h2>
                         <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
-                        <p class="skill">React <span class="accent">|</span> API <span class="accent">|</span> Java</p>
+                        <p class="skill">React <span class="accent">/</span> API <span class="accent">/</span> Java</p>
                         <ul>
                             <li><a href="">View Project</a></li>
                             <li><a href="">Github</a></li>
@@ -111,16 +117,18 @@
                 </div>
             </li>
             <li class="flex-container project" data-aos="fade">
-                <img class="projectImg" src="styles/assets/iphone.png"
-                    alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
+                <div class="imageHold">
+                    <img class="projectImg" src="styles/assets/macscreen-03.png"
+                        alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
+                </div>
                 <div class="imgBacker">
                     <div class="numberHold">
                         <h4>03</h4>
                     </div>
                     <div class="projectDesc">
-                        <h2>food & Flick</h2>
+                        <h2>f & f</h2>
                         <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
-                        <p class="skill">React <span class="accent">|</span> API <span class="accent">|</span> Java</p>
+                        <p class="skill">React <span class="accent">/</span> API <span class="accent">/</span> Java</p>
                         <ul>
                             <li><a href="">View Project</a></li>
                             <li><a href="">Github</a></li>
@@ -129,8 +137,10 @@
                 </div>
             </li>
             <li class="flex-container project" data-aos="fade">
-                <img class="projectImgTwo" src="styles/assets/iphone.png"
-                    alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
+                <div class="imageHoldTwo">
+                    <img class="projectImgTwo" src="styles/assets/macscreen-04.png"
+                        alt="MAKE THIS NON GENERIC, MAKE THIS NON GENERIC">
+                </div>
                 <div class="imgBackerTwo">
                     <div class="numberHoldTwo">
                         <h4>04</h4>
@@ -138,7 +148,7 @@
                     <div class="projectDesc">
                         <h2>moodfood</h2>
                         <p>An interactive resource for lighting fixures built on wordpress showing what we can do</p>
-                        <p class="skill">React <span class="accent">|</span> API <span class="accent">|</span> Java</p>
+                        <p class="skill">React <span class="accent">/</span> API <span class="accent">/</span> Java</p>
                         <ul>
                             <li><a href="">View Project</a></li>
                             <li><a href="">Github</a></li>
@@ -151,15 +161,16 @@
     <!-- main ends -->
 
     <!-- footer -->
-    <footer id="footer" data-aos="fade">
-        <section class="mainBackground footerContent">
+    <footer class="mainSplash" id="footer" data-aos="fade">
+        <section class="mainBackground splashContent">
             <div class="background_shade"></div>
             <div class="wrapper">
-                <div class="flex-container footerDesc">
+                <div class="flex-container splashDesc">
                     <h4>I am always looking for opportunities in
-                        new and exciting startups and agencies. Get in touch with me.</h4>
+                        new and exciting startups and agencies. <a href="mailto:keilwmartin@gmail.com">Get in touch with
+                            me.</a></h4>
                 </div>
-                <div class="flex-container footerContact">
+                <div class="flex-container splashContact">
                     <h3>keil</h3>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -177,7 +188,7 @@
     </footer>
     <!-- footer ends -->
 
-    <!-- Scripts for jquery and external Script.js -->
+    <!-- Scripts for jquery, external Script.js, AOS animations -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="scripts/script.js"></script>
