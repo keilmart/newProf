@@ -880,6 +880,21 @@ body {
   padding-bottom: 100px;
 }
 
+@media (max-width: 875px) {
+  .projectFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 875px) {
+  .projectFlex {
+    padding-bottom: 0;
+  }
+}
+
 .projectFlexTwo {
   height: 100%;
   width: 100%;
@@ -887,6 +902,15 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 100px;
+}
+
+@media (max-width: 875px) {
+  .projectFlexTwo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 .project {
@@ -908,9 +932,27 @@ body {
   }
 }
 
+@media (max-width: 875px) {
+  .project h4 {
+    font-size: 15rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .project {
     margin: 200px 0 0 0;
+  }
+}
+
+@media (max-width: 1050px) {
+  .project {
+    margin: 150px 0 0 0;
+  }
+}
+
+@media (max-width: 875px) {
+  .project {
+    margin: 100px 0 0 0;
   }
 }
 
@@ -943,6 +985,13 @@ body {
   color: #ff2c75;
 }
 
+@media (max-width: 875px) {
+  .projectDesc {
+    max-width: 280px;
+    margin-bottom: 45px;
+  }
+}
+
 .imageHold {
   max-width: 810px;
   z-index: 10;
@@ -960,6 +1009,12 @@ body {
   }
 }
 
+@media (max-width: 875px) {
+  .imageHold {
+    max-width: 300px;
+  }
+}
+
 .imageHoldTwo {
   max-width: 810px;
   z-index: 10;
@@ -968,6 +1023,18 @@ body {
 @media (max-width: 1385px) {
   .imageHoldTwo {
     max-width: 590px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .imageHoldTwo {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .imageHoldTwo {
+    max-width: 300px;
   }
 }
 
@@ -1005,6 +1072,12 @@ body {
   }
 }
 
+@media (max-width: 875px) {
+  .imgBacker {
+    left: 21%;
+  }
+}
+
 .imgBackerTwo {
   position: absolute;
   margin-right: 6%;
@@ -1024,6 +1097,12 @@ body {
 @media (max-width: 1050px) {
   .imgBackerTwo {
     height: 44vh;
+  }
+}
+
+@media (max-width: 875px) {
+  .imgBackerTwo {
+    right: 21%;
   }
 }
 
