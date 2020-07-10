@@ -1,8 +1,16 @@
+// * {
+//   border: 1px solid red;
+// }
+
 /* GLOBAL STYLES */
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   color: $black-color;
+}
+
+body {
+  min-width: 600px;
 }
 
 p,
@@ -33,6 +41,10 @@ h2 {
   font-weight: normal;
   color: $black-color;
   text-transform: uppercase;
+
+      @media (max-width: 1050px) {
+      font-size: 3.8rem;
+    } 
 }
 
 h4 {

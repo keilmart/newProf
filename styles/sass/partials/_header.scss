@@ -37,7 +37,7 @@ header title {
       .mainLink {
         font-family: 'Oswald', sans-serif;
         color: $black-color;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 2rem;
         z-index: 1000;
         position: relative;
@@ -49,6 +49,10 @@ header title {
         transition: all .4s ease;
       }
     }
+  }
+
+  @media (max-width: 1200px) {
+    display: none;
   }
 }
 
