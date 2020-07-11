@@ -83,15 +83,15 @@
   }
 
   @media (max-width: 1200px) {
-    margin: 200px 0 0 0;
+    margin: 200px 0 1px 0;
   }
 
   @media (max-width: 1050px) {
-    margin: 150px 0 0 0;
+    margin: 150px 0 1px 0;
   }
 
   @media (max-width: 875px) {
-    margin: 100px 0 0 0;
+    margin: 100px 0 1px 0;
   }
 }
 
@@ -249,4 +249,8 @@
     bottom: 23%;
     // padding-left: 80px;
   }
+}
+
+.skillsAnimate {
+  display: inline;
 }
