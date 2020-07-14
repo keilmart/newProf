@@ -871,6 +871,14 @@ body {
           animation-name: scroll;
 }
 
+.popText {
+  display: inline-block;
+}
+
+.animate__animated.animate__headShake {
+  --animate-duration: 4s;
+}
+
 .projectFlex {
   height: 100%;
   width: 100%;
