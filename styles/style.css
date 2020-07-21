@@ -1014,7 +1014,7 @@ body {
   }
 }
 
-@media (max-width: 875px) {
+@media (max-width: 675px) {
   .imageHold {
     max-width: 300px;
   }
@@ -1037,7 +1037,7 @@ body {
   }
 }
 
-@media (max-width: 875px) {
+@media (max-width: 675px) {
   .imageHoldTwo {
     max-width: 300px;
   }
@@ -1057,7 +1057,6 @@ body {
 
 .imgBacker {
   position: absolute;
-  margin-left: 6%;
   background-color: #F7F7F7;
   width: 57vw;
   height: 50vh;
@@ -1086,7 +1085,6 @@ body {
 
 .imgBackerTwo {
   position: absolute;
-  margin-right: 6%;
   background-color: #F7F7F7;
   width: 57vw;
   height: 50vh;
