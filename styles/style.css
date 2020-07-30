@@ -556,35 +556,10 @@ header li {
   font-size: 16rem;
 }
 
-header li .github {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-header li .github:hover {
-  color: grey;
+header li .socialPin:hover {
+  color: #ff2c75;
   -webkit-animation-name: bounce-5;
           animation-name: bounce-5;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
-}
-
-header li .linked:hover {
-  color: #0c62a6;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
-}
-
-header li .twitter:hover {
-  color: #0c62a6;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
-}
-
-header li .medium:hover {
-  color: grey;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
@@ -875,6 +850,10 @@ body {
   display: inline-block;
 }
 
+.skillsAnimate {
+  display: inline;
+}
+
 .animate__animated.animate__headShake {
   --animate-duration: 4s;
 }
@@ -944,19 +923,19 @@ body {
 
 @media (max-width: 1200px) {
   .project {
-    margin: 200px 0 1px 0;
+    margin: 170px 0 30px 0;
   }
 }
 
 @media (max-width: 1050px) {
   .project {
-    margin: 150px 0 1px 0;
+    margin: 110px 0 40px 0;
   }
 }
 
 @media (max-width: 875px) {
   .project {
-    margin: 100px 0 1px 0;
+    margin: 70px 0 30px 0;
   }
 }
 
@@ -997,62 +976,31 @@ body {
   }
 }
 
-.imageHold {
-  max-width: 650px;
-  z-index: 10;
-}
-
-@media (max-width: 1385px) {
-  .imageHold {
-    max-width: 570px;
-  }
-}
-
-@media (max-width: 1050px) {
-  .imageHold {
-    max-width: 430px;
-  }
-}
-
-@media (max-width: 675px) {
-  .imageHold {
-    max-width: 260px;
-  }
-}
-
-.imageHoldTwo {
-  max-width: 650px;
-  z-index: 10;
-}
-
-@media (max-width: 1385px) {
-  .imageHoldTwo {
-    max-width: 570px;
-  }
-}
-
-@media (max-width: 1050px) {
-  .imageHoldTwo {
-    max-width: 430px;
-  }
-}
-
-@media (max-width: 675px) {
-  .imageHoldTwo {
-    max-width: 260px;
-  }
-}
-
 .projectImg {
   max-width: 100%;
 }
 
-.projectImgTwo {
-  width: 100%;
+.imageHold {
+  max-width: 650px;
+  z-index: 10;
 }
 
-.imageHold {
-  z-index: 10;
+@media (max-width: 1385px) {
+  .imageHold {
+    max-width: 570px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .imageHold {
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 675px) {
+  .imageHold {
+    max-width: 217px;
+  }
 }
 
 .imgBacker {
@@ -1127,7 +1075,7 @@ body {
 .numberHoldTwo {
   display: inline-block;
   position: relative;
-  left: 40%;
+  left: 36%;
   bottom: 41%;
 }
 
@@ -1135,10 +1083,6 @@ body {
   .numberHoldTwo {
     bottom: 23%;
   }
-}
-
-.skillsAnimate {
-  display: inline;
 }
 
 .skillsPage .splashDesc {

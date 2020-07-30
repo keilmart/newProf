@@ -77,29 +77,15 @@ header title {
 header li {
   font-size: 16rem;
 
-  .github {
-            animation-duration: 2s;
-        animation-iteration-count: infinite;
-  }
+  // .socialPin {
+  //   animation-duration: 2s;
+  //   animation-iteration-count: infinite;
+  // }
 
-  .github:hover {
-    color: grey;
+  .socialPin:hover {
+    color: $split-color;
     animation-name: bounce-5;
-    animation-timing-function: ease;
-  }
-
-  .linked:hover {
-    color: #0c62a6;
-    transition: all .5s ease;
-  }
-
-  .twitter:hover {
-    color: #0c62a6;
-    transition: all .5s ease;
-  }
-
-  .medium:hover {
-    color: grey;
+    // animation-timing-function: ease;
     transition: all .5s ease;
   }
 
@@ -138,11 +124,7 @@ header li {
 
 body {
   @extend %font-settings;
-  // background: linear-gradient(45deg, #02001f, #1f1b4e);
-  // transform-style: preserve-3d;
   transform: perspective($perspective);
-  // position: fixed;
-  // display: flex;
   align-items: center;
   justify-content: center;
 }
