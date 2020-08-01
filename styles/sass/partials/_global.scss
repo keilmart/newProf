@@ -40,7 +40,7 @@ h2 {
 }
 
 h4 {
-  color: white;
+  color: $white-color;
   font-family: "Gilroy ExtraBold", system-ui, sans-serif;
   font-weight: normal;
   font-size: 4.5rem;
@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
   }
 }
 body::-webkit-scrollbar-track {
-  background: white;
+  background: $white-color;
   background: $black-color;
 }
 body::-webkit-scrollbar-thumb {
@@ -92,7 +92,7 @@ body::-webkit-scrollbar-thumb {
 .mainBackground {
   height: 100vh;
   position: relative;
-  color: white;
+  color: $white-color;
   background: #c4c2d8;
   background: -moz-linear-gradient(
     328deg,
@@ -152,7 +152,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   a {
-    color: white;
+    color: $white-color;
   }
 
   a:hover {
@@ -185,7 +185,7 @@ body::-webkit-scrollbar-thumb {
       padding-bottom: 25px;
 
       a {
-        color: white;
+        color: $white-color;
       }
 
       a:hover {

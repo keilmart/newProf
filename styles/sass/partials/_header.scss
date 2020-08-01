@@ -71,7 +71,7 @@ header title {
 .mainItem:hover #hiddenText {
   transition: all .4s ease;
   display: block;
-  background-color: white;
+  background-color: $white-color;
 }
 
 header li {
@@ -119,7 +119,7 @@ header li {
 }
 
 .fabicon-bar a {
-  color: white;
+  color: $white-color;
 }
 
 body {
@@ -191,7 +191,7 @@ body {
 .Menu-list-item:hover,
 .Menu-list-item:active {
   .Mask {
-    color: #fff;
+    color: $white-color;
     transform: skewX(12deg) translateX(5px);
   }
   .Mask + .Mask {
