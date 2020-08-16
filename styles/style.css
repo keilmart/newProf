@@ -997,9 +997,9 @@ body {
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 665px) {
   .imageHold {
-    max-width: 217px;
+    max-width: 215px;
   }
 }
 
