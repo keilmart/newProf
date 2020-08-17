@@ -59,9 +59,6 @@ header title {
   display:none;
   margin-top: 2.5px;
   margin-left: 16px;
-  // padding: 7px;
-  // border-radius: 25px;
-  // border: 1.5px solid $split-color;
 
   p {
     color: $black-color;
@@ -71,7 +68,6 @@ header title {
 .mainItem:hover #hiddenText {
   animation: fadeIn ease 2.5s;
   display: block;
-  background-color: $white-color;
 }
 
 header li {
