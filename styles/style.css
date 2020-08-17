@@ -523,8 +523,8 @@ header title {
 
 .mainNav .mainMenu .mainItem .mainLink:hover {
   color: #ff2c75;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
 }
 
 @media (max-width: 1200px) {
@@ -535,10 +535,8 @@ header title {
 
 #hiddenText {
   display: none;
-  margin-left: 10px;
-  padding: 7px;
-  border-radius: 25px;
-  border: 1.5px solid #ff2c75;
+  margin-top: 2.5px;
+  margin-left: 16px;
 }
 
 #hiddenText p {
@@ -546,8 +544,8 @@ header title {
 }
 
 .mainItem:hover #hiddenText {
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-animation: fadeIn ease 2.5s;
+          animation: fadeIn ease 2.5s;
   display: block;
   background-color: white;
 }
@@ -855,7 +853,7 @@ body {
 }
 
 .animate__animated.animate__headShake {
-  --animate-duration: 4s;
+  --animate-duration: 6s;
 }
 
 .projectFlex {
@@ -999,7 +997,7 @@ body {
 
 @media (max-width: 665px) {
   .imageHold {
-    max-width: 240px;
+    max-width: 220px;
   }
 }
 
@@ -1068,7 +1066,19 @@ body {
 
 @media (max-width: 1200px) {
   .numberHold {
-    bottom: 23%;
+    bottom: 27%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .numberHold {
+    bottom: 31%;
+  }
+}
+
+@media (max-width: 875px) {
+  .numberHold {
+    bottom: 16%;
   }
 }
 
@@ -1081,7 +1091,19 @@ body {
 
 @media (max-width: 1200px) {
   .numberHoldTwo {
-    bottom: 23%;
+    bottom: 27%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .numberHoldTwo {
+    bottom: 31%;
+  }
+}
+
+@media (max-width: 875px) {
+  .numberHoldTwo {
+    bottom: 16%;
   }
 }
 
@@ -1141,7 +1163,7 @@ body {
 
 @media (max-width: 600px) {
   .iconContainerIcon {
-    font-size: 4.2rem;
+    font-size: 4rem;
     padding: 3px 0 10px 0;
   }
 }

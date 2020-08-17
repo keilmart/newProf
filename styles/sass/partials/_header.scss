@@ -43,10 +43,9 @@ header title {
         position: relative;
       }
 
-      // CHANGE THIS // 
       .mainLink:hover {
         color: $split-color;
-        transition: all .4s ease;
+        transition: all .6s ease;
       }
     }
   }
@@ -58,10 +57,11 @@ header title {
 
 #hiddenText {
   display:none;
-  margin-left: 10px;
-  padding: 7px;
-  border-radius: 25px;
-  border: 1.5px solid $split-color;
+  margin-top: 2.5px;
+  margin-left: 16px;
+  // padding: 7px;
+  // border-radius: 25px;
+  // border: 1.5px solid $split-color;
 
   p {
     color: $black-color;
@@ -69,7 +69,7 @@ header title {
 }
 
 .mainItem:hover #hiddenText {
-  transition: all .4s ease;
+  animation: fadeIn ease 2.5s;
   display: block;
   background-color: $white-color;
 }
@@ -77,15 +77,9 @@ header title {
 header li {
   font-size: 16rem;
 
-  // .socialPin {
-  //   animation-duration: 2s;
-  //   animation-iteration-count: infinite;
-  // }
-
   .socialPin:hover {
     color: $split-color;
     animation-name: bounce-5;
-    // animation-timing-function: ease;
     transition: all .5s ease;
   }
 
