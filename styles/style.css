@@ -320,6 +320,9 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .mainBackground {
@@ -365,7 +368,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .splashDesc h4 {
-  line-height: 7rem;
+  line-height: 6rem;
   z-index: 10;
 }
 
@@ -452,6 +455,29 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 2.3px;
   background-color: #ff2c75;
+}
+
+.resumeContainer {
+  width: 90px;
+  height: 70px;
+  padding-top: 1px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid #ff2c75;
+  text-align: center;
+  position: relative;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+@media (max-width: 520px) {
+  .resumeContainer {
+    width: 150px;
+    height: 40px;
+    padding-top: 15px;
+    font-size: 1.6rem;
+  }
 }
 
 header {
@@ -957,7 +983,7 @@ body {
 }
 
 .projectDesc a:hover {
-  color: #ff2c75;
+  color: white;
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
 }
@@ -972,6 +998,32 @@ body {
     margin-bottom: 45px;
     text-align: center;
   }
+}
+
+.resumeButton {
+  position: relative;
+  z-index: 2;
+}
+
+.resumeContainer:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: white;
+  background: #ff2c75;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.resumeContainer:hover {
+  color: #fff;
+}
+
+.resumeContainer:hover:after {
+  width: 100%;
 }
 
 .projectImg {

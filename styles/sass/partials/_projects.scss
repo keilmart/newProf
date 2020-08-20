@@ -123,7 +123,7 @@
   }
 
   a:hover {
-  color: $split-color;
+  color: $white-color;
   transition: all .6s ease;
   }
 
@@ -137,6 +137,41 @@
     text-align: center;
   }
 }
+
+
+
+
+
+.resumeButton {
+  position: relative;
+  z-index: 2;
+}
+
+.resumeContainer:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: $white-color;
+  background: $split-color;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.resumeContainer:hover {
+  color: #fff;
+}
+
+.resumeContainer:hover:after {
+  width: 100%;
+}
+
+
+
+
+
 
 .projectImg {
   max-width: 100%;

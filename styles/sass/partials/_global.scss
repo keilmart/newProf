@@ -87,6 +87,7 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 .mainBackground {
@@ -143,7 +144,7 @@ body::-webkit-scrollbar-thumb {
   padding-top: 17%;
 
   h4 {
-    line-height: 7rem;
+    line-height: 6rem;
     z-index: 10;
 
     @media (max-width: 600px) {
@@ -220,5 +221,29 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 2.3px;
     background-color: $split-color;
+}
+
+.resumeContainer {
+  // display: block;
+  width: 90px;
+  height: 70px;
+  padding-top: 1px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid $split-color;
+  text-align: center;
+  position: relative;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+@media (max-width: 520px) {
+  .resumeContainer {
+    width: 150px;
+    height: 40px;
+    padding-top: 15px;
+    font-size: 1.6rem;
+  }
 }
 
