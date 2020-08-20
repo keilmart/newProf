@@ -46,34 +46,34 @@
   --animate-duration: 6s;
 }
 
-.projectFlex {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  padding-bottom: 75px;
+// .projectFlex {
+//   height: 100%;
+//   width: 100%;
+//   justify-content: center;
+//   padding-bottom: 75px;
 
-  @media (max-width: 875px) {
-    flex-direction: column;
-    padding-bottom: 0;
-  }
-}
+//   @media (max-width: 875px) {
+//     flex-direction: column;
+//     padding-bottom: 0;
+//   }
+// }
 
-.projectFlexTwo {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  padding-bottom: 75px;
+// .projectFlexTwo {
+//   height: 100%;
+//   width: 100%;
+//   justify-content: center;
+//   padding-bottom: 75px;
 
-  @media (max-width: 875px) {
-    flex-direction: column-reverse;
-    padding-bottom: 0;
-  }
-}
+//   @media (max-width: 875px) {
+//     flex-direction: column-reverse;
+//     padding-bottom: 0;
+//   }
+// }
 
 .project {
   height: 80vh;
   position: relative;
-  margin: 50px 0 180px 0;
+  // margin: 50px 0 180px 0;
 
     h4 {
       font-family: 'Oswald', sans-serif;
@@ -120,6 +120,7 @@
     font-size: 1.9rem;
     color: $black-color;
     margin-right: 20px;
+    padding: 2px 5px 0 5px;
   }
 
   a:hover {
@@ -138,8 +139,21 @@
   }
 }
 
+.resumeContainer {
+  border-bottom: 2px solid #fe81ad;
+  position: relative;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
 
+  @media (max-width: 520px) {
+    width: 150px;
+    height: 40px;
+    padding-top: 15px;
+    font-size: 1.6rem;
+  }
+}
 
+// CHANGE THIS NOW //
 
 
 .resumeButton {
@@ -156,6 +170,7 @@
   height: 100%;
   color: $white-color;
   background: $split-color;
+  border-bottom: 2px solid $split-color;
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
 }
@@ -168,10 +183,9 @@
   width: 100%;
 }
 
-
-
-
-
+#projectButton {
+  padding-right: 1px;
+}
 
 .projectImg {
   max-width: 100%;
