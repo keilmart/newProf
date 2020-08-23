@@ -406,6 +406,14 @@ body::-webkit-scrollbar-thumb {
   height: 23%;
 }
 
+@media (max-width: 700px) {
+  .splashContact {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .splashContact h3 {
   font-family: "Gilroy ExtraBold", system-ui, sans-serif;
   font-weight: normal;
@@ -441,13 +449,13 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 600px) {
   .splashContact h3 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
   .splashContact ul {
     padding: 9px 0 0 50px;
   }
   .splashContact ul li {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding-bottom: 20px;
   }
 }
@@ -494,7 +502,7 @@ header title {
   position: sticky;
   top: 35%;
   left: 0px;
-  padding: 20px 0 0 20px;
+  padding: 30px 0 30px 20px;
   width: 5%;
   z-index: 1000;
 }
@@ -946,7 +954,7 @@ body {
 }
 
 .resumeContainer {
-  border-bottom: 2px solid #fe81ad;
+  border-bottom: 2px solid #ffb2cd;
   position: relative;
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
@@ -1183,8 +1191,8 @@ body {
 
 @media (max-width: 600px) {
   .iconContainerIcon {
-    font-size: 4rem;
-    padding: 3px 0 10px 0;
+    font-size: 3.6rem;
+    padding: 4px 0 12px 0;
   }
 }
 
