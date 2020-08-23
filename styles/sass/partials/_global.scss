@@ -45,12 +45,12 @@ h4 {
   font-weight: normal;
   font-size: 4.5rem;
 
-  @media (max-width: 800px) {
-    font-size: 2.8rem;
+  @media (max-width: 1000px) {
+    font-size: 2.9rem;
   }
 
-  @media (max-width: 600px) {
-    font-size: 2.4rem;
+  @media (max-width: 700px) {
+    font-size: 2.1rem;
   }
 }
 
@@ -144,11 +144,15 @@ body::-webkit-scrollbar-thumb {
   padding-top: 17%;
 
   h4 {
-    line-height: 6rem;
+    line-height: 6.5rem;
     z-index: 10;
 
-    @media (max-width: 600px) {
+    @media (max-width: 1000px) {
       line-height: 4.5rem;
+    }
+
+    @media (max-width: 700px) {
+      line-height: 3.2rem;
     } 
   }
 
