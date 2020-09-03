@@ -238,6 +238,7 @@ h5 {
 
 p {
   font-size: 1.65rem;
+  line-height: 1.5;
 }
 
 a {
@@ -923,7 +924,7 @@ body {
 .projectDesc {
   max-width: 350px;
   z-index: 10;
-  margin-bottom: 115px;
+  margin-bottom: 290px;
 }
 
 .projectDesc p {
@@ -938,7 +939,7 @@ body {
   font-size: 1.9rem;
   color: black;
   margin-right: 20px;
-  padding: 2px 5px 0 5px;
+  padding: 2px 5px 2px 5px;
 }
 
 .projectDesc a:hover {
@@ -1013,7 +1014,7 @@ body {
 .imageHold {
   max-width: 650px;
   z-index: 10;
-  margin-bottom: 90px;
+  margin-bottom: 210px;
 }
 
 @media (max-width: 1385px) {

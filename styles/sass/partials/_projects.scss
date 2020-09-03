@@ -96,7 +96,7 @@
 .projectDesc {
   max-width: 350px;
   z-index: 10;
-  margin-bottom: 115px;
+  margin-bottom: 290px;
 
   p {
     margin: 10px 0 15px 0;
@@ -110,7 +110,7 @@
     font-size: 1.9rem;
     color: $black-color;
     margin-right: 20px;
-    padding: 2px 5px 0 5px;
+    padding: 2px 5px 2px 5px;
   }
 
   a:hover {
@@ -181,7 +181,7 @@
 .imageHold {
   max-width: 650px;
   z-index: 10;
-  margin-bottom: 90px;
+  margin-bottom: 210px;
 
   @media (max-width: 1385px) {
     max-width: 570px;
