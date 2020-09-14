@@ -93,6 +93,7 @@ body::-webkit-scrollbar-thumb {
 
 .mainBackground {
   height: 100vh;
+  overflow: hidden;
   position: relative;
   color: $white-color;
   background: #c4c2d8;
@@ -214,7 +215,7 @@ body::-webkit-scrollbar-thumb {
       padding: 9px 0 0 50px;
 
       li {
-        font-size: 1.3rem;
+        font-size: 1.35rem;
         padding-bottom: 20px;
       }
     }

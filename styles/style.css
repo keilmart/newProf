@@ -328,6 +328,7 @@ body::-webkit-scrollbar-thumb {
 
 .mainBackground {
   height: 100vh;
+  overflow: hidden;
   position: relative;
   color: white;
   background: #c4c2d8;
@@ -456,7 +457,7 @@ body::-webkit-scrollbar-thumb {
     padding: 9px 0 0 50px;
   }
   .splashContact ul li {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     padding-bottom: 20px;
   }
 }
@@ -475,6 +476,7 @@ body::-webkit-scrollbar-thumb {
 header {
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 header .wrapper {
@@ -915,9 +917,23 @@ body {
   }
 }
 
-@media (max-width: 875px) {
+@media (max-width: 885px) {
   .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 50px 0 30px 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 885px) {
+  .projectReverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 
@@ -1014,7 +1030,7 @@ body {
 .imageHold {
   max-width: 650px;
   z-index: 10;
-  margin-bottom: 210px;
+  margin-bottom: 220px;
 }
 
 @media (max-width: 1385px) {
