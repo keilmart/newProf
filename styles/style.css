@@ -216,6 +216,24 @@ body {
 }
 
 /* GLOBAL STYLES */
+body::-webkit-scrollbar {
+  width: .7rem;
+}
+
+body::-webkit-scrollbar:hover {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ff2c75;
+  border-radius: 10px;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -276,24 +294,6 @@ h4 {
   h4 {
     font-size: 2.1rem;
   }
-}
-
-body::-webkit-scrollbar {
-  width: .7rem;
-}
-
-body::-webkit-scrollbar:hover {
-  width: 1rem;
-}
-
-body::-webkit-scrollbar-track {
-  background: white;
-  background: black;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #ff2c75;
-  border-radius: 10px;
 }
 
 .wrapper {

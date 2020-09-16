@@ -1,4 +1,21 @@
 /* GLOBAL STYLES */
+// Scroll bar mods // 
+body::-webkit-scrollbar {
+  width: .7rem;
+  &:hover {
+    width: 1rem;
+    
+  }
+}
+body::-webkit-scrollbar-track {
+  background: $white-color;
+  background: $black-color;
+}
+body::-webkit-scrollbar-thumb {
+  background: $split-color;
+  border-radius: 10px;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -53,23 +70,6 @@ h4 {
   @media (max-width: 700px) {
     font-size: 2.1rem;
   }
-}
-
-// Scroll bar mods // 
-body::-webkit-scrollbar {
-  width: .7rem;
-  &:hover {
-    width: 1rem;
-    
-  }
-}
-body::-webkit-scrollbar-track {
-  background: $white-color;
-  background: $black-color;
-}
-body::-webkit-scrollbar-thumb {
-  background: $split-color;
-  border-radius: 10px;
 }
 
 .wrapper {
