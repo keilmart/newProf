@@ -2,15 +2,23 @@ header {
   height: 100vh;
   position: relative;
   overflow: hidden;
+
+  .wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-header .wrapper {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+// header .wrapper {
+//   display: flex;
+//   height: 100%;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 header title {
   z-index: 1000;
