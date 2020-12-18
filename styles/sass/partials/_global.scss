@@ -56,8 +56,8 @@ h2 {
       font-size: 3.8rem;
     } 
 
-    @media (max-width: 1100px) {
-      font-size: 3.3rem;
+    @media (max-width: 500px) {
+      font-size: 2.5rem;
     } 
 }
 
@@ -67,7 +67,7 @@ h4 {
   font-weight: normal;
   font-size: 4.5rem;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1100px) {
     font-size: 2.9rem;
   }
 
@@ -153,7 +153,7 @@ h4 {
     line-height: 6.5rem;
     z-index: 10;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1100px) {
       line-height: 4.5rem;
     }
 
@@ -188,6 +188,10 @@ h4 {
   font-weight: normal;
   font-size: 5rem;
   color: $split-color;
+
+    @media (max-width: 1100px) {
+      font-size: 3rem;
+    } 
   }
 
   ul {
@@ -207,7 +211,16 @@ h4 {
         color: $split-color;
         transition: all .4s ease;
       }
+
+      @media (max-width: 1100px) {
+        font-size: 1rem;
+        padding-bottom: 15px;
+      } 
     }
+
+      @media (max-width: 1100px) {
+      padding: 8px 0 0 50px;
+    } 
   }
 
   @media (max-width: 600px) {

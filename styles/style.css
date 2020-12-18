@@ -277,9 +277,9 @@ h2 {
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 500px) {
   h2 {
-    font-size: 3.3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -290,7 +290,7 @@ h4 {
   font-size: 4.5rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   h4 {
     font-size: 2.9rem;
   }
@@ -380,7 +380,7 @@ h4 {
   z-index: 10;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .splashDesc h4 {
     line-height: 4.5rem;
   }
@@ -429,6 +429,12 @@ h4 {
   color: #ff2c75;
 }
 
+@media (max-width: 1100px) {
+  .splashContact h3 {
+    font-size: 3rem;
+  }
+}
+
 .splashContact ul {
   padding: 12px 0 0 100px;
   display: -webkit-box;
@@ -453,6 +459,19 @@ h4 {
   color: #ff2c75;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
+}
+
+@media (max-width: 1100px) {
+  .splashContact ul li {
+    font-size: 1rem;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .splashContact ul {
+    padding: 8px 0 0 50px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -853,6 +872,13 @@ body {
   border-radius: 25px;
 }
 
+@media (max-width: 1100px) {
+  .icon-scroll {
+    width: 25px;
+    height: 42px;
+  }
+}
+
 @media (max-width: 800px) {
   .icon-scroll {
     display: none;
@@ -873,6 +899,15 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-name: scroll;
           animation-name: scroll;
+}
+
+@media (max-width: 1100px) {
+  .icon-scroll:before {
+    width: 4px;
+    height: 4px;
+    margin-left: -1.9px;
+    top: 2px;
+  }
 }
 
 .popText {
