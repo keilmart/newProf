@@ -1,6 +1,6 @@
 // aos animations init //
 AOS.init({
-  duration: 1700,
+  duration: 2000,
 })
 
 var $menu = $(".Menu-list"),
