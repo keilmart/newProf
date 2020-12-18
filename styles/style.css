@@ -606,7 +606,7 @@ header li .socialPin:hover {
   transition: all .5s ease;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 1100px) {
   header li {
     font-size: 10rem;
   }
@@ -637,6 +637,12 @@ header li .socialPin:hover {
   font-size: 25px;
   font-size: 2.5rem;
   z-index: 100;
+}
+
+@media (max-width: 1100px) {
+  .fabicon-bar li {
+    font-size: 1.5rem;
+  }
 }
 
 .fabicon-bar a {
@@ -1216,9 +1222,9 @@ body {
           align-items: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .iconContainer {
-    margin-top: 52px;
+    margin-top: 45px;
   }
 }
 
@@ -1241,11 +1247,16 @@ body {
   text-align: center;
 }
 
+@media (max-width: 1100px) {
+  .iconContainerIcon {
+    font-size: 4rem;
+  }
+}
+
 @media (max-width: 900px) {
   .iconContainerIcon {
     width: calc(100% / 3);
     padding: 0;
-    font-size: 4.5rem;
   }
 }
 
