@@ -1,3 +1,13 @@
+.rellax {
+  margin-left: 100px;
+  z-index: 1;
+  // height: 50%;
+  // transform: rotate(70deg);
+  // will-change: transform;
+  overflow: hidden;
+  position: absolute;
+}
+
 .mainContent {
   position: relative;
   background: $white-color;
@@ -63,8 +73,8 @@
 }
 
 .project {
-  height: 80vh;
-  position: relative;
+  height: 90vh;
+  // position: relative;
 
     h4 {
       font-family: 'Oswald', sans-serif;
@@ -88,7 +98,11 @@
 
 #lastProject {
   margin-bottom: 200px;
-}
+
+  @media (max-width: 885px) {
+    margin-bottom: 0;
+  }
+} 
 
 .projectReverse {
   @media (max-width: 885px) {
