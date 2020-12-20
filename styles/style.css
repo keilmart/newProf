@@ -1092,12 +1092,20 @@ body {
 
 .projectImg {
   max-width: 100%;
+  -webkit-box-shadow: -5px 30px 30px #d3d3d3;
+          box-shadow: -5px 30px 30px #d3d3d3;
 }
 
 .imageHold {
   max-width: 650px;
   z-index: 10;
   margin-left: 85px;
+  -webkit-box-shadow: 2px 30px 30px #b2b2b8;
+          box-shadow: 2px 30px 30px #b2b2b8;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 @media (max-width: 1385px) {
@@ -1128,6 +1136,12 @@ body {
   max-width: 650px;
   z-index: 10;
   margin-right: 85px;
+  -webkit-box-shadow: 2px 30px 30px #b2b2b8;
+          box-shadow: 2px 30px 30px #b2b2b8;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 @media (max-width: 1385px) {
