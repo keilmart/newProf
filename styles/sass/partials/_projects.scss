@@ -86,6 +86,10 @@
   }
 }
 
+#lastProject {
+  margin-bottom: 200px;
+}
+
 .projectReverse {
   @media (max-width: 885px) {
     flex-direction: column-reverse;

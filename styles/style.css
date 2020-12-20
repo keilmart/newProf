@@ -968,6 +968,10 @@ body {
   }
 }
 
+#lastProject {
+  margin-bottom: 200px;
+}
+
 @media (max-width: 885px) {
   .projectReverse {
     -webkit-box-orient: vertical;
