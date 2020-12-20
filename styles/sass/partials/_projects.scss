@@ -1,6 +1,17 @@
 .rellax {
-  margin-left: 100px;
+  margin-left: 300px;
   z-index: 1;
+  // height: 50%;
+  // transform: rotate(70deg);
+  // will-change: transform;
+  overflow: hidden;
+  position: absolute;
+}
+
+.Two {
+  margin-right: 300px;
+  z-index: 1;
+  right: 0;
   // height: 50%;
   // transform: rotate(70deg);
   // will-change: transform;

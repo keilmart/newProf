@@ -3,14 +3,7 @@ AOS.init({
   duration: 2000,
 })
 
-  var rellax = new Rellax('.rellax', {
-    speed: -2,
-    center: false,
-    wrapper: null,
-    round: true,
-    vertical: true,
-    horizontal: false
-  });
+var rellax = new Rellax('.rellax');
 
 var $menu = $(".Menu-list"),
   $item = $(".Menu-list-item"),
