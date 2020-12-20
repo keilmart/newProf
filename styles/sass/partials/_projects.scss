@@ -84,7 +84,7 @@
 }
 
 .project {
-  height: 67vh;
+  height: 70vh;
   // position: relative;
 
     h4 {
@@ -122,7 +122,7 @@
 }
 
 .projectDesc {
-  max-width: 350px;
+  max-width: 450px;
   z-index: 10;
 
   p {
@@ -207,9 +207,9 @@
 }
 
 .imageHold {
-  max-width: 650px;
+  max-width: 700px;
   z-index: 10;
-  margin-left: 85px;
+  margin-left: 100px;
   box-shadow: 2px 30px 30px #b2b2b8;
   transition: all 0.3s ease-in-out;
   flex-shrink: 0;
@@ -232,9 +232,9 @@
 }
 
 .imageHoldTwo {
-  max-width: 650px;
+  max-width: 700px;
   z-index: 10;
-  margin-right: 85px;
+  margin-right: 100px;
   box-shadow: 2px 30px 30px #b2b2b8;
   transition: all 0.3s ease-in-out;
   flex-shrink: 0;

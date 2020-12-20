@@ -955,7 +955,7 @@ body {
 }
 
 .project {
-  height: 67vh;
+  height: 70vh;
 }
 
 .project h4 {
@@ -1006,7 +1006,7 @@ body {
 }
 
 .projectDesc {
-  max-width: 350px;
+  max-width: 450px;
   z-index: 10;
 }
 
@@ -1097,9 +1097,9 @@ body {
 }
 
 .imageHold {
-  max-width: 650px;
+  max-width: 700px;
   z-index: 10;
-  margin-left: 85px;
+  margin-left: 100px;
   -webkit-box-shadow: 2px 30px 30px #b2b2b8;
           box-shadow: 2px 30px 30px #b2b2b8;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1133,9 +1133,9 @@ body {
 }
 
 .imageHoldTwo {
-  max-width: 650px;
+  max-width: 700px;
   z-index: 10;
-  margin-right: 85px;
+  margin-right: 100px;
   -webkit-box-shadow: 2px 30px 30px #b2b2b8;
           box-shadow: 2px 30px 30px #b2b2b8;
   -webkit-transition: all 0.3s ease-in-out;
