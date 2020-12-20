@@ -62,20 +62,9 @@
   --animate-duration: 6s;
 }
 
-//   @media (max-width: 875px) {
-//     flex-direction: column;
-//     padding-bottom: 0;
-//   }
-
-//   @media (max-width: 875px) {
-//     flex-direction: column-reverse;
-//     padding-bottom: 0;
-//   }
-
 .project {
   height: 90vh;
   position: relative;
-  // margin: 50px 0 180px 0;
 
     h4 {
       font-family: 'Oswald', sans-serif;
@@ -84,7 +73,7 @@
       color: #EBEBEB;
 
     @media (max-width: 1200px) {
-    font-size: 27rem;
+      font-size: 27rem;
     }
 
     @media (max-width: 875px) {
@@ -108,7 +97,7 @@
 }
 
 .projectReverse {
-    @media (max-width: 885px) {
+  @media (max-width: 885px) {
     flex-direction: column-reverse;
   }
 }
@@ -116,7 +105,6 @@
 .projectDesc {
   max-width: 350px;
   z-index: 10;
-  // margin-bottom: 290px;
 
   p {
     margin: 10px 0 15px 0;
@@ -169,8 +157,8 @@
 }
 
 .resumeContainer:after {
-  position: absolute;
   content: "";
+  position: absolute;
   top: 0;
   left: 0;
   width: 0;
@@ -201,7 +189,26 @@
 .imageHold {
   max-width: 650px;
   z-index: 10;
-  // margin-bottom: 220px;
+  margin-left: 85px;
+
+  @media (max-width: 1385px) {
+    max-width: 570px;
+  }
+
+  @media (max-width: 1050px) {
+    max-width: 430px;
+  }
+
+  @media (max-width: 665px) {
+    max-width: 255px;
+    margin-bottom: 0;
+  }
+}
+
+.imageHoldTwo {
+  max-width: 650px;
+  z-index: 10;
+  margin-right: 85px;
 
   @media (max-width: 1385px) {
     max-width: 570px;
@@ -220,7 +227,6 @@
 .imgBacker {
   position: absolute;
   background-color: #F7F7F7;
-  // width: 57vw;
   width: 100vw;
   height: 50vh;
   top: 0;
@@ -228,23 +234,20 @@
 
     @media (max-width: 1200px) {
       margin-left: 0;
-  }
+    }
   
     @media (max-width: 1050px) {
       height: 44vh;
   }
 
     @media (max-width: 875px) {
-  // width: 57vw;
-  width: 100vw;
-      // left: 11%;
+      width: 100vw;
   }
 }
 
 .imgBackerTwo {
   position: absolute;
   background-color: #F7F7F7;
-  // width: 57vw;
   width: 100vw;
   height: 50vh;
   top: 0;
@@ -259,9 +262,7 @@
   }
 
   @media (max-width: 875px) {
-  // width: 57vw;
-  width: 100vw;
-    // right: 11%;
+    width: 100vw;
   }
 }
 

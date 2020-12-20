@@ -382,13 +382,13 @@ h4 {
 
 @media (max-width: 1100px) {
   .splashDesc h4 {
-    line-height: 4.5rem;
+    line-height: 4rem;
   }
 }
 
 @media (max-width: 700px) {
   .splashDesc h4 {
-    line-height: 3.2rem;
+    line-height: 3.1rem;
   }
 }
 
@@ -530,7 +530,7 @@ header title {
   position: sticky;
   top: 35%;
   left: 0px;
-  padding: 30px 0 30px 20px;
+  padding-left: 20px;
   width: 5%;
   z-index: 1000;
 }
@@ -631,6 +631,12 @@ header li .socialPin:hover {
   padding: 0;
   padding-bottom: 45px;
   margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+  .fabicon-bar {
+    width: 300px;
+  }
 }
 
 .fabicon-bar li {
@@ -1044,8 +1050,8 @@ body {
 }
 
 .resumeContainer:after {
-  position: absolute;
   content: "";
+  position: absolute;
   top: 0;
   left: 0;
   width: 0;
@@ -1076,6 +1082,7 @@ body {
 .imageHold {
   max-width: 650px;
   z-index: 10;
+  margin-left: 85px;
 }
 
 @media (max-width: 1385px) {
@@ -1092,6 +1099,31 @@ body {
 
 @media (max-width: 665px) {
   .imageHold {
+    max-width: 255px;
+    margin-bottom: 0;
+  }
+}
+
+.imageHoldTwo {
+  max-width: 650px;
+  z-index: 10;
+  margin-right: 85px;
+}
+
+@media (max-width: 1385px) {
+  .imageHoldTwo {
+    max-width: 570px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .imageHoldTwo {
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 665px) {
+  .imageHoldTwo {
     max-width: 255px;
     margin-bottom: 0;
   }
@@ -1249,7 +1281,7 @@ body {
 
 @media (max-width: 1100px) {
   .iconContainerIcon {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -1273,7 +1305,7 @@ body {
   margin: 5px 0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1100px) {
   .iconContainer p {
     font-size: 1.3rem;
   }
