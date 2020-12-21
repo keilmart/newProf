@@ -1006,7 +1006,8 @@ body {
 }
 
 .projectDesc {
-  max-width: 450px;
+  max-width: 470px;
+  padding: 10px 10px;
   z-index: 10;
 }
 
