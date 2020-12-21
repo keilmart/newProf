@@ -117,7 +117,7 @@
   margin-bottom: 200px;
 
   @media (max-width: 1400px) {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   @media (max-width: 1000px) {
@@ -126,7 +126,7 @@
 } 
 
 .project {
-  height: 70vh;
+  height: 75vh;
 
     h4 {
       font-family: 'Oswald', sans-serif;
@@ -139,7 +139,7 @@
     }
   }
 
-  @media (max-width: 1250px) {
+  @media (max-width: 1100px) {
     flex-direction: column;
   }
 }
@@ -233,11 +233,7 @@
 
 .projectImg {
   max-width: 100%;
-  display: inline-block;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
   box-shadow: -5px 30px 30px #d3d3d3;
-  animation:changeSize 3s 1 forwards;
 }
 
 .imageHold {
@@ -249,10 +245,7 @@
 
   @media (max-width: 1100px) {
     max-width: 530px;
-  }
-
-  @media (max-width: 1250px) {
-    margin-left: 0px;
+        margin-left: 0px;
   }
 
   @media (max-width: 800px) {
@@ -273,9 +266,6 @@
 
   @media (max-width: 1100px) {
     max-width: 530px;
-  }
-
-  @media (max-width: 1250px) {
     margin-right: 0px;
   }
 

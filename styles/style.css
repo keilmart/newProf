@@ -952,7 +952,7 @@ body {
 
 @media (max-width: 1400px) {
   #lastProject {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 }
 
@@ -963,7 +963,7 @@ body {
 }
 
 .project {
-  height: 70vh;
+  height: 75vh;
 }
 
 .project h4 {
@@ -979,7 +979,7 @@ body {
   }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1100px) {
   .project {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1085,15 +1085,8 @@ body {
 
 .projectImg {
   max-width: 100%;
-  display: inline-block;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
   -webkit-box-shadow: -5px 30px 30px #d3d3d3;
           box-shadow: -5px 30px 30px #d3d3d3;
-  -webkit-animation: changeSize 3s 1 forwards;
-          animation: changeSize 3s 1 forwards;
 }
 
 .imageHold {
@@ -1108,11 +1101,6 @@ body {
 @media (max-width: 1100px) {
   .imageHold {
     max-width: 530px;
-  }
-}
-
-@media (max-width: 1250px) {
-  .imageHold {
     margin-left: 0px;
   }
 }
@@ -1141,11 +1129,6 @@ body {
 @media (max-width: 1100px) {
   .imageHoldTwo {
     max-width: 530px;
-  }
-}
-
-@media (max-width: 1250px) {
-  .imageHoldTwo {
     margin-right: 0px;
   }
 }
