@@ -539,11 +539,6 @@ header title {
   z-index: 1000;
 }
 
-.mainNav .mainMenu {
-  margin: 0;
-  padding: 0;
-}
-
 .mainNav .mainMenu .mainItem {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -955,7 +950,7 @@ body {
 }
 
 .project {
-  height: 70vh;
+  height: 80vh;
 }
 
 .project h4 {
@@ -1006,7 +1001,7 @@ body {
 }
 
 .projectDesc {
-  max-width: 470px;
+  max-width: 450px;
   padding: 10px 10px;
   z-index: 10;
 }
@@ -1098,7 +1093,7 @@ body {
 }
 
 .imageHold {
-  max-width: 700px;
+  max-width: 680px;
   z-index: 10;
   margin-left: 100px;
   -webkit-box-shadow: 2px 30px 30px #b2b2b8;
@@ -1133,40 +1128,8 @@ body {
   }
 }
 
-.imageHoldTwo {
-  max-width: 700px;
-  z-index: 10;
+.HoldTwo {
   margin-right: 100px;
-  -webkit-box-shadow: 2px 30px 30px #b2b2b8;
-          box-shadow: 2px 30px 30px #b2b2b8;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-@media (max-width: 1385px) {
-  .imageHoldTwo {
-    max-width: 570px;
-  }
-}
-
-@media (max-width: 1050px) {
-  .imageHoldTwo {
-    max-width: 430px;
-  }
-}
-
-@media (max-width: 885px) {
-  .imageHoldTwo {
-    margin-right: 0px;
-  }
-}
-
-@media (max-width: 665px) {
-  .imageHoldTwo {
-    max-width: 255px;
-  }
 }
 
 .skillsPage .splashDesc {
