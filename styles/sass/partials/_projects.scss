@@ -15,7 +15,7 @@
   position: sticky;
   top: 35%;
   left: 0px;
-  padding-left: 20px;
+  padding: 10px 0 0 20px;
   width: 5%;
   z-index: 1000;
 
@@ -140,13 +140,13 @@
   }
 
   @media (max-width: 1100px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 
 .projectReverse {
   @media (max-width: 1100px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 
@@ -181,7 +181,7 @@
 
   @media (max-width: 1250px) {
     max-width: 280px;
-    margin-bottom: 45px;
+    // margin-bottom: 45px;
     text-align: center;
   }
 }
@@ -234,6 +234,10 @@
 .projectImg {
   max-width: 100%;
   box-shadow: -5px 30px 30px #d3d3d3;
+
+  @media (max-width: 1100px) {
+    box-shadow: none;
+  }
 }
 
 .imageHold {
@@ -245,7 +249,8 @@
 
   @media (max-width: 1100px) {
     max-width: 530px;
-        margin-left: 0px;
+    margin-left: 0px;
+    box-shadow: none;
   }
 
   @media (max-width: 800px) {
@@ -267,6 +272,7 @@
   @media (max-width: 1100px) {
     max-width: 530px;
     margin-right: 0px;
+    box-shadow: none;
   }
 
   @media (max-width: 800px) {

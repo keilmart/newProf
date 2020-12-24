@@ -3,8 +3,6 @@ AOS.init({
   duration: 2000,
 })
 
-var rellax = new Rellax('.rellax');
-
 var $menu = $(".Menu-list"),
   $item = $(".Menu-list-item"),
   w = $(window).width(), //window width
@@ -50,3 +48,6 @@ $(window).on("mousemove", function (e) {
     $this.css("transform", transformLayer);
   });
 });
+
+// for the relax images in the project section //
+var rellax = new Rellax('.rellax');
