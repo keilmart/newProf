@@ -1,16 +1,18 @@
 .rellax {
-  width: 30vw;
-  margin-left: 80px;
-  // z-index: 1;
-  // overflow: hidden;
-  // position: absolute;
+  position: absolute;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
 }
 
-.rellaxTwo {
-  width: 30vw;
-  margin-right: 80px;
-  right: 0;
+.rellaxImg {
+  display: block;
+  object-fit: contain;
+  height: 100%;
 }
+
 
 // side sticky menu //
 .mainNav {
@@ -128,7 +130,7 @@
 } 
 
 .project {
-  height: 75vh;
+  height: 78vh;
 
     h4 {
       font-family: 'Oswald', sans-serif;
@@ -137,6 +139,7 @@
       color: #EBEBEB;
 
     @media (max-width: 1400px) {
+      height: 70vh;
       font-size: 15rem;
     }
   }
@@ -189,7 +192,7 @@
 }
 
 .resumeContainer {
-  border-bottom: 2px solid #ffb2cd;
+  border: 2px solid #ffb2cd;
   position: relative;
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
@@ -284,9 +287,4 @@
   @media (max-width: 600px) {
     max-width: 255px;
   }
-}
-
-.rellaxImg {
-  position: absolute;
-  width: 50%;
 }

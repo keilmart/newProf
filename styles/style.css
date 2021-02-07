@@ -291,12 +291,12 @@ h4 {
   color: white;
   font-family: "Gilroy ExtraBold", system-ui, sans-serif;
   font-weight: normal;
-  font-size: 4.5rem;
+  font-size: 4.4rem;
 }
 
 @media (max-width: 1100px) {
   h4 {
-    font-size: 2.9rem;
+    font-size: 2.7rem;
   }
 }
 
@@ -307,15 +307,21 @@ h4 {
 }
 
 .wrapper {
-  width: 72vw;
+  width: 82vw;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1285px) {
   .wrapper {
-    width: 80vw;
+    width: 84vw;
+  }
+}
+
+@media (max-width: 1185px) {
+  .wrapper {
+    width: 88vw;
   }
 }
 
@@ -323,8 +329,6 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -377,6 +381,8 @@ h4 {
 
 .splashDesc {
   padding-top: 17%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .splashDesc h4 {
@@ -463,13 +469,6 @@ h4 {
   color: #ff2c75;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
-}
-
-@media (max-width: 1100px) {
-  .splashContact ul li {
-    font-size: 1rem;
-    padding-bottom: 15px;
-  }
 }
 
 @media (max-width: 1100px) {
@@ -813,14 +812,26 @@ body {
 }
 
 .rellax {
-  width: 30vw;
-  margin-left: 80px;
+  position: absolute;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 1;
 }
 
-.rellaxTwo {
-  width: 30vw;
-  margin-right: 80px;
-  right: 0;
+.rellaxImg {
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
 }
 
 .mainNav {
@@ -962,7 +973,7 @@ body {
 }
 
 .project {
-  height: 75vh;
+  height: 78vh;
 }
 
 .project h4 {
@@ -974,6 +985,7 @@ body {
 
 @media (max-width: 1400px) {
   .project h4 {
+    height: 70vh;
     font-size: 15rem;
   }
 }
@@ -1035,7 +1047,7 @@ body {
 }
 
 .resumeContainer {
-  border-bottom: 2px solid #ffb2cd;
+  border: 2px solid #ffb2cd;
   position: relative;
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
@@ -1154,11 +1166,6 @@ body {
   }
 }
 
-.rellaxImg {
-  position: absolute;
-  width: 50%;
-}
-
 .skillsPage .splashDesc {
   padding-top: 5%;
 }
@@ -1178,6 +1185,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @media (max-width: 1100px) {
