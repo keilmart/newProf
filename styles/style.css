@@ -829,7 +829,7 @@ body {
   display: flex;
   z-index: 1;
   top: 65%;
-  right: 20%;
+  right: 23%;
 }
 
 #rellaxHoldThree {
@@ -1124,16 +1124,16 @@ body {
 
 .imageHold {
   position: relative;
-  max-width: 680px;
+  max-width: 650px;
   z-index: 10;
-  margin-left: 100px;
+  margin-left: 80px;
   -webkit-box-shadow: 2px 30px 30px #b2b2b8;
           box-shadow: 2px 30px 30px #b2b2b8;
 }
 
 @media (max-width: 1100px) {
   .imageHold {
-    max-width: 530px;
+    max-width: 500px;
     margin-left: 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1142,28 +1142,22 @@ body {
 
 @media (max-width: 800px) {
   .imageHold {
-    max-width: 430px;
-  }
-}
-
-@media (max-width: 600px) {
-  .imageHold {
-    max-width: 255px;
+    max-width: 400px;
   }
 }
 
 .imageHoldTwo {
   position: relative;
-  max-width: 680px;
+  max-width: 650px;
   z-index: 10;
-  margin-right: 100px;
+  margin-right: 80px;
   -webkit-box-shadow: 2px 30px 30px #b2b2b8;
           box-shadow: 2px 30px 30px #b2b2b8;
 }
 
 @media (max-width: 1100px) {
   .imageHoldTwo {
-    max-width: 530px;
+    max-width: 500px;
     margin-right: 0px;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1172,14 +1166,26 @@ body {
 
 @media (max-width: 800px) {
   .imageHoldTwo {
-    max-width: 430px;
+    max-width: 400px;
   }
 }
 
-@media (max-width: 600px) {
-  .imageHoldTwo {
-    max-width: 255px;
-  }
+.Imagee {
+  position: absolute;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 42%;
+  right: 0%;
+}
+
+.Imagee2 {
+  position: absolute;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 40%;
+  left: -15%;
 }
 
 .skillsPage .splashDesc {
@@ -1230,22 +1236,10 @@ body {
   text-align: center;
 }
 
-@media (max-width: 1100px) {
-  .iconContainerIcon {
-    font-size: 3rem;
-  }
-}
-
 @media (max-width: 900px) {
   .iconContainerIcon {
     width: calc(100% / 3);
-    padding: 0;
-  }
-}
-
-@media (max-width: 600px) {
-  .iconContainerIcon {
-    font-size: 3.6rem;
+    font-size: 3rem;
     padding: 4px 0 12px 0;
   }
 }

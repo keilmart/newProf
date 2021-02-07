@@ -12,7 +12,7 @@
   display: flex;
   z-index: 1;
   top: 65%;
-  right: 20%;
+  right: 23%;
 }
 
 #rellaxHoldThree{
@@ -264,44 +264,62 @@
 
 .imageHold {
   position: relative;
-  max-width: 680px;
+  max-width: 650px;
   z-index: 10;
-  margin-left: 100px;
+  margin-left: 80px;
   box-shadow: 2px 30px 30px #b2b2b8;
 
   @media (max-width: 1100px) {
-    max-width: 530px;
+    max-width: 500px;
     margin-left: 0px;
     box-shadow: none;
   }
 
   @media (max-width: 800px) {
-    max-width: 430px;
+    max-width: 400px;
   }
 
-  @media (max-width: 600px) {
-    max-width: 255px;
-  }
+  // @media (max-width: 600px) {
+  //   max-width: 255px;
+  // }
 }
 
 .imageHoldTwo {
   position: relative;
-  max-width: 680px;
+  max-width: 650px;
   z-index: 10;
-  margin-right: 100px;
+  margin-right: 80px;
   box-shadow: 2px 30px 30px #b2b2b8;
 
   @media (max-width: 1100px) {
-    max-width: 530px;
+    max-width: 500px;
     margin-right: 0px;
     box-shadow: none;
   }
 
   @media (max-width: 800px) {
-    max-width: 430px;
+    max-width: 400px;
   }
 
-  @media (max-width: 600px) {
-    max-width: 255px;
-  }
+  // @media (max-width: 600px) {
+  //   max-width: 255px;
+  // }
+}
+
+.Imagee {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  // height: 40%;
+  width: 42%;
+  right: 0%;
+}
+
+.Imagee2 {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  // height: 40%;
+  width: 40%;
+  left: -15%;
 }
