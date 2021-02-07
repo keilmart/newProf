@@ -1,12 +1,14 @@
 .rellax {
-  margin-left: 70px;
-  z-index: 1;
-  overflow: hidden;
-  position: absolute;
+  width: 30vw;
+  margin-left: 80px;
+  // z-index: 1;
+  // overflow: hidden;
+  // position: absolute;
 }
 
 .rellaxTwo {
-  margin-right: 70px;
+  width: 30vw;
+  margin-right: 80px;
   right: 0;
 }
 
@@ -19,8 +21,8 @@
   width: 5%;
   z-index: 1000;
 
-   .mainMenu {
-     
+  .mainMenu {
+
     .mainItem {
       display: flex;
       flex-direction: row;
@@ -282,4 +284,9 @@
   @media (max-width: 600px) {
     max-width: 255px;
   }
+}
+
+.rellaxImg {
+  position: absolute;
+  width: 50%;
 }

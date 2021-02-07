@@ -813,14 +813,13 @@ body {
 }
 
 .rellax {
-  margin-left: 70px;
-  z-index: 1;
-  overflow: hidden;
-  position: absolute;
+  width: 30vw;
+  margin-left: 80px;
 }
 
 .rellaxTwo {
-  margin-right: 70px;
+  width: 30vw;
+  margin-right: 80px;
   right: 0;
 }
 
@@ -1153,6 +1152,11 @@ body {
   .imageHoldTwo {
     max-width: 255px;
   }
+}
+
+.rellaxImg {
+  position: absolute;
+  width: 50%;
 }
 
 .skillsPage .splashDesc {
