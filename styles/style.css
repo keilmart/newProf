@@ -811,17 +811,35 @@ body {
   }
 }
 
-.rellax {
+#rellaxHold {
   position: absolute;
   height: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
-  right: 0;
+  left: 0;
 }
 
-.rellaxTwo {
+#rellaxHoldTwo {
+  position: absolute;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  top: 65%;
+  right: 20%;
+}
+
+#rellaxHoldThree {
+  position: absolute;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  bottom: -50%;
   right: 0;
 }
 
