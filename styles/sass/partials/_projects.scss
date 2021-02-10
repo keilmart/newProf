@@ -24,12 +24,39 @@
   right: 0;
 }
 
+.greyBackgroundCircle {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  width: 43%;
+  right: 1%;
+
+  @media (max-width: 1400px) {
+    display: none;
+  }
+}
+
+.greyBackgroundSquare {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  width: 40%;
+  left: -15%;
+
+  @media (max-width: 1400px) {
+    display: none;
+  }
+}
+
 .rellaxImg {
   display: block;
   object-fit: contain;
   height: 100%;
-}
 
+  @media (max-width: 1400px) {
+    display: none;
+  }
+}
 
 // side sticky menu //
 .mainNav {
@@ -148,6 +175,7 @@
 
 .project {
   height: 78vh;
+  text-align: end;
 
     h4 {
       font-family: 'Oswald', sans-serif;
@@ -167,6 +195,8 @@
 }
 
 .projectReverse {
+  text-align: start;
+
   @media (max-width: 1100px) {
     flex-direction: column;
   }
@@ -266,7 +296,7 @@
   position: relative;
   max-width: 650px;
   z-index: 10;
-  margin-left: 80px;
+  margin-left: 100px;
   box-shadow: 2px 30px 30px #b2b2b8;
 
   @media (max-width: 1100px) {
@@ -288,7 +318,7 @@
   position: relative;
   max-width: 650px;
   z-index: 10;
-  margin-right: 80px;
+  margin-right: 100px;
   box-shadow: 2px 30px 30px #b2b2b8;
 
   @media (max-width: 1100px) {
