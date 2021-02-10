@@ -68,8 +68,8 @@
                     </a>
                 </li>
                 <li class="mainItem">
-                    <a class="mainLink" href="mailto:keilwmartin@gmail.com">04</a>
-                    <a id="hiddenText" href="mailto:keilwmartin@gmail.com">
+                    <a class="mainLink" href="#footer">04</a>
+                    <a id="hiddenText" href="#footer">
                         <p>Contact</p>
                     </a>
                 </li>
@@ -204,13 +204,47 @@
         <section class="mainBackground splashContent">
             <div class="background_shade"></div>
             <div class="wrapper">
-                <div class="flex-container splashDesc">
+
+                <!-- <div class="flex-container splashDesc">
                     <h4>I am always looking for opportunities in
                         new and exciting startups, agencies and companies. <div
                             class="popText animate__animated animate__headShake animate__infinite"><a
-                                href="mailto:keilwmartin@gmail.com">Click to contact.</a></div>
+                                target="_top" href="mailto:keilwmartin@gmail.com">Click to contact.</a></div>
                     </h4>
-                </div>
+                </div> -->
+
+
+<div class="flex-container contactSection">
+				<form action="https://formspree.io/xdoanjpp"method="POST">
+					<ul class="formList">
+						<li>
+							<label for="name">Name</label>
+							<input name="contact" type="text" id="name">
+						</li>
+						<li>
+							<label for="phone">Phone</label>
+							<input name="contact" type="phone" id="phone">
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input name="contact" type="email" id="email">
+						</li>
+						<li>
+							<label for="message">Tell Me About Yourself!</label>
+						</li>
+						<li>
+							<textarea name="message" id="message" ></textarea>
+						</li>
+						<li>
+							<input type="submit" value="Send">
+						</li>
+					</ul>
+				</form>
+</div>
+
+
+
+
                 <div class="flex-container splashContact">
                     <h3>keil</h3>
                     <ul>
@@ -221,7 +255,7 @@
                     <ul>
                         <li><a href="https://www.linkedin.com/in/keil-martin/" target="_blank">LinkedIn</a></li>
                         <li><a href="https://github.com/keilmart" target="_blank">GitHub</a></li>
-                        <li><a href="mailto:keilwmartin@gmail.com" target="_blank">Contact</a></li>
+                        <li><a target="_top" href="#footer" target="_blank">Contact</a></li>
                     </ul>
                 </div>
             </div>

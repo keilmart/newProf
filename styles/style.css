@@ -1057,7 +1057,7 @@ body {
 
 @media (max-width: 1250px) {
   .projectDesc {
-    max-width: 280px;
+    min-width: 355px;
     text-align: center;
   }
 }
@@ -1175,8 +1175,8 @@ body {
   display: block;
   -o-object-fit: contain;
      object-fit: contain;
-  width: 42%;
-  right: 0%;
+  width: 43%;
+  right: 1%;
 }
 
 .Imagee2 {
@@ -1186,6 +1186,99 @@ body {
      object-fit: contain;
   width: 40%;
   left: -15%;
+}
+
+.contactSection {
+  width: 60%;
+  height: 100%;
+  z-index: 10;
+}
+
+form {
+  width: 100%;
+}
+
+.formList {
+  list-style: none;
+  padding: 0;
+}
+
+.formList li {
+  margin: 10px 0 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.formList li:nth-child(4) {
+  margin-top: 50px;
+}
+
+.formList li label {
+  color: offWhite;
+  font-size: 1.8rem;
+  margin-right: 7px;
+}
+
+.formList input[name=contact] {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  width: 100%;
+  font-size: 1.6rem;
+  letter-spacing: 1.4px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.formList textarea {
+  background: none;
+  outline: none;
+  padding: 10px 5px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  width: 100%;
+  height: 95px;
+  resize: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.6rem;
+  letter-spacing: 1.4px;
+}
+
+.formList input[name=contact]:focus, .formList textarea:focus {
+  outline: 1px solid pink;
+  background: #ff5f96;
+  border: none;
+}
+
+.formList input[type=submit] {
+  color: #ff2c75;
+  background: none;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 10px 70px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.formList input:hover {
+  height: 100%;
+  color: white;
+  background: #ff2c75;
+  border: 1px solid black;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .skillsPage .splashDesc {

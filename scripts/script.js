@@ -51,3 +51,4 @@ $(window).on("mousemove", function (e) {
 
 // for the relax images in the project section //
 var rellax = new Rellax('.rellax');
+
