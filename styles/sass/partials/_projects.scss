@@ -308,10 +308,6 @@
   @media (max-width: 800px) {
     max-width: 400px;
   }
-
-  // @media (max-width: 600px) {
-  //   max-width: 255px;
-  // }
 }
 
 .imageHoldTwo {
@@ -330,38 +326,17 @@
   @media (max-width: 800px) {
     max-width: 400px;
   }
-
-  // @media (max-width: 600px) {
-  //   max-width: 255px;
-  // }
 }
-
-.Imagee {
-  position: absolute;
-  display: block;
-  object-fit: contain;
-  // height: 40%;
-  width: 43%;
-  right: 1%;
-}
-
-.Imagee2 {
-  position: absolute;
-  display: block;
-  object-fit: contain;
-  // height: 40%;
-  width: 40%;
-  left: -15%;
-}
-
-
 
 .contactSection {
   width: 60%;
   height: 100%;
   z-index: 10;
-}
 
+  @media (max-width: 800px) {
+    width: 80%;
+  }
+}
 
 form {
 	width: 100%;
@@ -455,3 +430,4 @@ form {
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
 }
+

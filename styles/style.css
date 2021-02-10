@@ -1211,28 +1211,16 @@ body {
   }
 }
 
-.Imagee {
-  position: absolute;
-  display: block;
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 43%;
-  right: 1%;
-}
-
-.Imagee2 {
-  position: absolute;
-  display: block;
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 40%;
-  left: -15%;
-}
-
 .contactSection {
   width: 60%;
   height: 100%;
   z-index: 10;
+}
+
+@media (max-width: 800px) {
+  .contactSection {
+    width: 80%;
+  }
 }
 
 form {
