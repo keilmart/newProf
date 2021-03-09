@@ -291,18 +291,18 @@ h4 {
   color: white;
   font-family: "Gilroy ExtraBold", system-ui, sans-serif;
   font-weight: normal;
-  font-size: 4.4rem;
+  font-size: 3.2rem;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   h4 {
-    font-size: 2.7rem;
+    font-size: 2.6rem;
   }
 }
 
 @media (max-width: 700px) {
   h4 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -386,19 +386,19 @@ h4 {
 }
 
 .splashDesc h4 {
-  line-height: 6.5rem;
+  line-height: 5.5rem;
   z-index: 10;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .splashDesc h4 {
-    line-height: 4rem;
+    line-height: 4.2rem;
   }
 }
 
 @media (max-width: 700px) {
   .splashDesc h4 {
-    line-height: 3.1rem;
+    line-height: 3rem;
   }
 }
 
@@ -828,8 +828,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
-  top: 65%;
-  right: 23%;
+  top: 68%;
+  right: 40%;
 }
 
 #rellaxHoldThree {
