@@ -2,259 +2,343 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Keil Martin Portfolio Website">
-    <meta name="keywords" content="Keil, Martin, Developer, Front-End Developer, Javascript, Programmer, Portfolio">
-    <meta name="author" content="Keil Martin">
-    <title>Keil Martin - About & Projects</title>
-    <!-- link to animate on scroll -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-    <!-- Link to new google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;500&display=swap"
-        rel="stylesheet">
-    <!-- Link to font awesome -->
-    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" />
-    <!-- link to stylesheet -->
-    <link rel="shortcut icon" href="styles/assets/favicon-32x32.png" />
-    <link rel="stylesheet" href="styles/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Keil Martin Portfolio Website">
+  <meta name="keywords" content="Keil, Martin, Developer, Front-End Developer, Javascript, Programmer, Portfolio">
+  <meta name="author" content="Keil Martin">
+  <title>Keil Martin - About & Projects</title>
+  <!-- link to animate on scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <!-- Link to new google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <!-- Link to devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- Link to font awesome -->
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" />
+  <!-- link to stylesheet -->
+  <link rel="shortcut icon" href="styles/assets/favicon-32x32.png" />
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 
 <body>
-    <!-- header starts -->
-    <header class="mainSplash" data-aos="fade">
-        <section id="about" class="mainBackground splashContent">
-            <div class="background_shade"></div>
-            <div class="wrapper">
-                <div class="flex-container splashDesc">
-                    <h4>Front-End Developer based in Toronto. Using my background in Electrical Engineering, I create an
-                        interactive and user friendly experience with the latest technologies. Available for freelance work as well as employment in exciting startups and tech companies. 
-                        <div class="popText animate__animated animate__headShake animate__infinite"><a
-                            href="skills.html">Click to see my skills.</a>
-                        </div>
-                    </h4>
-                </div>
-                <div class="flex-container splashContact">
-                    <a href="#mainContent" class='icon-scroll'></a>
-                </div>
-            </div>
-        </section>
-    </header>
-    <!-- header ends -->
+  <!-- header starts -->
+  <header class="mainSplash" id="about" data-aos="fade">
+    <section id="about" class="mainBackground splashContent">
+      <div class="background_shade"></div>
+      <div class="wrapper">
+        <div class="flex-container aboutMeContainer">
+          <div class="aboutMe">
+            <h3>About me!</h3>
+            <h4>As a engineering technologist turned developer, I combine my passion for visual communication with my
+              ability to problem solve through
+              technical programming. I strive to create accessible digital products which bring delightful and seamless
+              user
+              experiences using the newest technologies.</h4>
+            <!-- <div class=" movingText popText animate__animated animate__headShake animate__infinite"><a
+              href="skills.html">Click to
+              see my skills.</a>
+          </div> -->
+          </div>
+          <div class="aboutMe skills">
+            <div class="flex-container splashDesc">
+              <div class="skillsDesc">
+                <h4>Frameworks & Skills</h4>
+              </div>
+              <div class="flex-container iconContainer">
 
-    <!-- side sticky menu -->
-    <main class="mainContent" id="mainContent">
-        <nav class="mainNav">
-            <ul class="mainMenu">
-                <li class="mainItem">
-                    <a class="mainLink" href="about.html">01</a>
-                    <a id="hiddenText" href="about.html">
-                        <p>About</p>
-                    </a>
-                </li>
-                <li class="mainItem">
-                    <a class="mainLink" href="#projects">02</a>
-                    <a id="hiddenText" href="#projects">
-                        <p>Projects</p>
-                    </a>
-                </li>
-                <li class="mainItem">
-                    <a class="mainLink" href="skills.html">03</a>
-                    <a id="hiddenText" href="skills.html">
-                        <p>Skills</p>
-                    </a>
-                </li>
-                <li class="mainItem">
-                    <a class="mainLink" href="#footer">04</a>
-                    <a id="hiddenText" href="#footer">
-                        <p>Contact</p>
-                    </a>
-                </li>
+                <div class="iconContainerIcon" data-aos="fade-down">
+                  <i class="devicon-javascript-plain"></i>
+                  <p>JavaScript</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-up">
+                  <i class="devicon-react-original"></i>
+                  <p>React</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-down">
+                  <i class="devicon-nextjs-plain"></i>
+                  <p>Next.js</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-up">
+                  <i class="devicon-gatsby-plain"></i>
+                  <p>Gatsby</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-down">
+                  <i class="devicon-jquery-plain"></i>
+                  <p>jQuery</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-up">
+                  <i class="devicon-typescript-plain"></i>
+                  <p>TypeScript</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-down">
+                  <i class="devicon-firebase-plain"></i>
+                  <p>Firebase</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-up">
+                  <i class="devicon-jeet-plain"></i>
+                  <p>REST API</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-down">
+                  <i class="devicon-html5-plain"></i>
+                  <p>HTML5</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-up">
+                  <i class="devicon-css3-plain"></i>
+                  <p>CSS3</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-down">
+                  <i class="devicon-sass-plain"></i>
+                  <p>ScSS</p>
+                </div>
+
+                <div class="iconContainerIcon" data-aos="fade-up">
+                  <i class="devicon-tailwindcss-plain"></i>
+                  <p>Tailwind</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-container splashContact">
+          <a href="#mainContent" class='icon-scroll'></a>
+        </div>
+    </section>
+  </header>
+  <!-- header ends -->
+
+  <!-- side sticky menu -->
+  <main class="mainContent" id="mainContent">
+    <!-- <nav class="mainNav">
+      <ul class="mainMenu">
+        <li class="mainItem">
+          <a class="mainLink" href="#about">01</a>
+          <a id="hiddenText" href="#about">
+            <p>About</p>
+          </a>
+        </li>
+        <li class="mainItem">
+          <a class="mainLink" href="#projects">02</a>
+          <a id="hiddenText" href="#projects">
+            <p>Projects</p>
+          </a>
+        </li>
+        <li class="mainItem">
+          <a class="mainLink" href="skills.html">03</a>
+          <a id="hiddenText" href="skills.html">
+            <p>Skills</p>
+          </a>
+        </li>
+        <li class="mainItem">
+          <a class="mainLink" href="#footer">04</a>
+          <a id="hiddenText" href="#footer">
+            <p>Contact</p>
+          </a>
+        </li>
+      </ul>
+    </nav> -->
+    <!-- side sticky ends -->
+
+    <!-- main starts -->
+    <section id="projects" class="wrapper">
+      <i class="far fa-dizzy"></i>
+      <!-- project 1 begins -->
+      <li class="project flex-container" data-aos="fade">
+        <div class="projectDesc">
+          <h2>c-19 tracker</h2>
+          <p>Tracking for COVID-19 in Canada. Provides national and provincial active, recovered and fatality
+            statistics.
+          </p>
+          <p class="skill">React <span class="accent">/</span> 2 API's <span class="accent">/</span>
+            MapBox <span class="accent">/</span> ReChart
+            <span class="accent">/</span> Framer
+          </p>
+          <div class="buttonHold">
+            <a class="resumeContainer" href="https://covid-tracker.github.io/covid-tracker/" target="_blank">
+              <span class="resumeButton" tabindex="0"> View Live</span>
+            </a>
+            <a id="projectButton" href="https://github.com/covid-tracker/covid-tracker" target target="_blank">
+              <span class="resumeButton" tabindex="0"> GitHub</span>
+            </a>
+          </div>
+        </div>
+        <div class="imageHold">
+          <img class="projectImg" src="styles/assets/project-one-img.png"
+            alt="screen shot of the homepage for the covid app">
+        </div>
+        <div class="rellax" id="rellaxHold" data-rellax-speed="4">
+          <img class="rellaxImg" src="styles/assets/circleTriangle.svg"
+            alt="Backgorund image of grey dots aligned into circle">
+        </div>
+      </li>
+      <!-- project 1 ends -->
+
+      <!-- project 2 begins -->
+      <li class="project projectReverse flex-container" data-aos="fade">
+        <img class="greyBackgroundSquare" src="styles/assets/greySquare.svg">
+        <div class="imageHoldTwo">
+          <img class="projectImg" src="styles/assets/project-four-img.png"
+            alt="screen shot of the homepage for the food and a flick app">
+        </div>
+        <div class="projectDesc secondDesc">
+          <div class="secondDesc">
+            <h2>f & f</h2>
+            <p>Select recipe and movies options based on genre selection, for the
+              perfect date night.</p>
+            <p class="skill">jQuery <span class="accent">/</span> 2 API's <span class="accent">/</span>
+              ScSS
+              <span class="accent">/</span> HTML5
+            </p>
+            <div class="buttonHold">
+              <a class="resumeContainer" href="https://keilmart.github.io/foodAndAFlick/" target="_blank">
+                <span class="resumeButton" tabindex="0"> View Live</span>
+              </a>
+              <a id="projectButton" href="https://github.com/keilmart/foodAndAFlick" target target="_blank">
+                <span class="resumeButton" tabindex="0"> GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="rellax" id="rellaxHoldTwo" data-rellax-speed="4">
+          <img class="rellaxImg" src="styles/assets/triangle.svg" alt="rellax image of triangles ">
+        </div>
+      </li>
+      <!-- project 2 ends -->
+
+      <!-- project 3 begins -->
+      <li class="project flex-container" data-aos="fade">
+        <img class="greyBackgroundSquareTwo" src="styles/assets/greySquare.svg">
+        <div class="projectDesc">
+          <h2>giphy</h2>
+          <p>Originally built this as a hackathon style project, decided to add more features. Adding FireBase soon!</p>
+          <p class="skill">React <span class="accent">/</span> RestAPI <span class="accent">/</span> ScSS
+            <span class="accent">/</span> Framer
+          </p>
+          <div class="buttonHold">
+            <a class="resumeContainer" href="https://keilmart.github.io/react-giphy/" target="_blank">
+              <span class="resumeButton" tabindex="0"> View Live</span>
+            </a>
+            <a id="projectButton" href="https://github.com/keilmart/react-giphy" target target="_blank">
+              <span class="resumeButton" tabindex="0"> GitHub</span>
+            </a>
+          </div>
+        </div>
+        <div class="imageHold">
+          <img class="projectImg" src="styles/assets/project-three-img.png"
+            alt="screen shot of the homepage for the game of potter app">
+        </div>
+      </li>
+      <!-- project 3 ends -->
+
+      <!-- project 4 begins -->
+      <li class="project projectReverse flex-container" id="lastProject" data-aos="fade">
+        <div class="imageHoldTwo">
+          <img class="projectImg" src="styles/assets/project-five-img.png"
+            alt="screen shot of the homepage for the six beats app">
+        </div>
+        <div class="projectDesc secondDesc">
+          <div class="secondDesc">
+            <h2>6ix beats</h2>
+            <p>Pick a genre and quickly generate what the next music events coming to Toronto are using the Ticketmaster
+              API.</p>
+            <p class="skill">React <span class="accent">/</span> RestAPI <span class="accent">/</span>
+              ScSS
+              <span class="accent">/</span> HTML5
+            </p>
+            <div class="buttonHold">
+              <a class="resumeContainer" href="https://keilmart.github.io/toronto-concert-generator/" target="_blank">
+                <span class="resumeButton" tabindex="0"> View Live</span>
+              </a>
+              <a id="projectButton" href="https://github.com/keilmart/toronto-concert-generator" target target="_blank">
+                <span class="resumeButton" tabindex="0"> GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="rellax" id="rellaxHoldThree" data-rellax-speed="5">
+          <img class="rellaxImg" src="styles/assets/triangleCircle.svg" alt="rellax image of triangles ">
+        </div>
+      </li>
+      <!-- project 4 ends -->
+    </section>
+  </main>
+  <!-- main ends -->
+
+  <!-- bottom splash -->
+  <footer class="mainSplash" id="footer" data-aos="fade">
+    <section class="mainBackground splashContent">
+      <div class="background_shade"></div>
+      <div class="wrapper">
+
+        <div class="flex-container contactSection">
+          <form action="https://formspree.io/xdoanjpp" method="POST">
+            <ul class="formList">
+              <li>
+                <label for="name">Name</label>
+                <input name="contact" type="text" id="name">
+              </li>
+              <li>
+                <label for="phone">Phone</label>
+                <input name="contact" type="phone" id="phone">
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input name="contact" type="email" id="email">
+              </li>
+              <li>
+                <label for="message">Tell Me About Yourself!</label>
+              </li>
+              <li>
+                <textarea name="message" id="message"></textarea>
+              </li>
+              <li>
+                <input type="submit" value="Send">
+              </li>
             </ul>
-        </nav>
-        <!-- side sticky ends -->
+          </form>
+        </div>
 
-        <!-- main starts -->
-        <section id="projects" class="wrapper">
-        <i class="far fa-dizzy"></i>
-        <!-- project 1 begins -->
-        <li class="project flex-container" data-aos="fade">
-            <div class="projectDesc">
-                <h2>c-19 tracker</h2>
-                <p>Tracking for COVID-19 in Canada, API is currently down, check the screenshot and repo out!
-                </p>
-                <p class="skill">React <span class="accent">/</span> RestAPI <span class="accent">/</span>
-                    MapBox <span class="accent">/</span> ReChart
-                    <span class="accent">/</span> Framer</p>
-                <div>
-                    <a id="projectButton" class="resumeContainer" href="https://covid-tracker.github.io/covid-tracker/"
-                        target="_blank">
-                        <span class="resumeButton" tabindex="0"> View Project</span>
-                    </a>
-                    <a class="resumeContainer" href="https://github.com/covid-tracker" target="_blank">
-                        <span class="resumeButton" tabindex="0"> Github</span>
-                    </a>
-                </div>
-            </div>
-            <div class="imageHold">
-                <img class="projectImg" src="styles/assets/project-one-img.png"
-                    alt="screen shot of the homepage for the covid app">
-            </div>
-            <div class="rellax" id="rellaxHold" data-rellax-speed="4">
-                <img class="rellaxImg" src="styles/assets/circleTriangle.svg" alt="Backgorund image of grey dots aligned into circle">
-            </div>
-        </li>
-        <!-- project 1 ends -->
+        <div class="flex-container splashContact">
+          <h4><a id="keilTag" href="index.html">keil</a></h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="skills.html">Skills</a></li> -->
+          </ul>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/keil-martin/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/keilmart" target="_blank">GitHub</a></li>
+            <!-- <li><a target="_top" href="#footer" target="_blank">Contact</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- bottom splash ends -->
 
-        <!-- project 2 begins -->
-        <li class="project projectReverse flex-container" data-aos="fade">
-            <img class="greyBackgroundCircle" src="styles/assets/greyCircle.svg">
-            <div class="imageHoldTwo">
-                <img class="projectImg" src="styles/assets/project-four-img.png"
-                    alt="screen shot of the homepage for the food and a flick app">
-            </div>
-            <div class="projectDesc secondDesc">
-                <div class="secondDesc">
-                    <h2>f & f</h2>
-                    <p>Select recipe and movies options based on genre selection, for the
-                        perfect date night.</p>
-                    <p class="skill">jQuery <span class="accent">/</span> 2 API's <span class="accent">/</span>
-                        ScSS
-                        <span class="accent">/</span> HTML5</p>
-                    <div>
-                        <a class="resumeContainer" href="https://keilmart.github.io/foodAndAFlick/" target="_blank">
-                            <span class="resumeButton" tabindex="0"> View Project</span>
-                        </a>
-                        <a class="resumeContainer" href="https://github.com/keilmart/foodAndAFlick" target="_blank">
-                            <span class="resumeButton" tabindex="0"> Github</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="rellax" id="rellaxHoldTwo" data-rellax-speed="4">
-                <img class="rellaxImg" src="styles/assets/triangle.svg" alt="rellax image of triangles ">
-            </div>
-        </li>
-        <!-- project 2 ends -->
-
-        <!-- project 3 begins -->
-        <li class="project flex-container" data-aos="fade">
-            <img class="greyBackgroundSquare" src="styles/assets/greySquare.svg">
-            <div class="projectDesc">
-                <h2>giphy</h2>
-                <p>Originally built this as a 2 hour hackathon project, decided to add more features and gonna add firebase!</p>
-                <p class="skill">React <span class="accent">/</span> RestAPI <span class="accent">/</span> ScSS
-                    <span class="accent">/</span> Framer</p>
-                <div>
-                    <a class="resumeContainer" href="https://keilmart.github.io/react-giphy/" target="_blank">
-                        <span class="resumeButton" tabindex="0"> View Project</span>
-                    </a>
-                    <a class="resumeContainer" href="https://github.com/keilmart/react-firebase" target="_blank">
-                        <span class="resumeButton" tabindex="0"> Github</span>
-                    </a>
-                </div>
-            </div>
-            <div class="imageHold">
-                <img class="projectImg" src="styles/assets/project-three-img.png"
-                    alt="screen shot of the homepage for the game of potter app">
-            </div>
-        </li>
-        <!-- project 3 ends -->
-
-        <!-- project 4 begins -->
-        <li class="project projectReverse flex-container" id="lastProject" data-aos="fade">
-            <div class="imageHoldTwo">
-                <img class="projectImg" src="styles/assets/project-five-img.png"
-                    alt="screen shot of the homepage for the six beats app">
-            </div>
-            <div class="projectDesc secondDesc">
-                <div class="secondDesc">
-                    <h2>6ix beats</h2>
-                    <p>Pick a genre and quickly generate what the next events coming to Toronto are.</p>
-                    <p class="skill">React <span class="accent">/</span> RestAPI <span class="accent">/</span>
-                        ScSS
-                        <span class="accent">/</span> HTML5</p>
-                    <div>
-                        <a class="resumeContainer" href="https://keilmart.github.io/toronto-concert-generator/"
-                            target="_blank">
-                            <span class="resumeButton" tabindex="0"> View Project</span>
-                        </a>
-                        <a class="resumeContainer" href="https://github.com/keilmart/toronto-concert-generator"
-                            target="_blank">
-                            <span class="resumeButton" tabindex="0"> Github</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="rellax" id="rellaxHoldThree" data-rellax-speed="5">
-                <img class="rellaxImg" src="styles/assets/triangleCircle.svg" alt="rellax image of triangles ">
-            </div>
-        </li>
-        <!-- project 4 ends -->
-        </section>
-    </main>
-    <!-- main ends -->
-
-    <!-- bottom splash -->
-    <footer class="mainSplash" id="footer" data-aos="fade">
-        <section class="mainBackground splashContent">
-            <div class="background_shade"></div>
-            <div class="wrapper">
-
-            <div class="flex-container contactSection">
-				<form action="https://formspree.io/xdoanjpp"method="POST">
-					<ul class="formList">
-						<li>
-							<label for="name">Name</label>
-							<input name="contact" type="text" id="name">
-						</li>
-						<li>
-							<label for="phone">Phone</label>
-							<input name="contact" type="phone" id="phone">
-						</li>
-						<li>
-							<label for="email">Email</label>
-							<input name="contact" type="email" id="email">
-						</li>
-						<li>
-							<label for="message">Tell Me About Yourself!</label>
-						</li>
-						<li>
-							<textarea name="message" id="message" ></textarea>
-						</li>
-						<li>
-							<input type="submit" value="Send">
-						</li>
-					</ul>
-				</form>
-            </div>
-
-                <div class="flex-container splashContact">
-                    <h3>keil</h3>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/keil-martin/" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://github.com/keilmart" target="_blank">GitHub</a></li>
-                        <li><a target="_top" href="#footer" target="_blank">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </footer>
-    <!-- bottom splash ends -->
-
-    <!-- Scripts for jquery, external Script.js, AOS animations -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"> </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="scripts/script.js"></script>
+  <!-- Scripts for jquery, external Script.js, AOS animations -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"> </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="scripts/script.js"></script>
 
 </body>
+
 </html>

@@ -17,7 +17,7 @@ header title {
 }
 
 #hiddenText {
-  display:none;
+  display: none;
   margin-top: 2.5px;
   margin-left: 16px;
 
@@ -37,7 +37,7 @@ header li {
   .socialPin:hover {
     color: $split-color;
     animation-name: bounce-5;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
   }
 
   @media (max-width: 1100px) {

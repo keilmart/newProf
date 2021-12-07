@@ -221,7 +221,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: .7rem;
+  width: 0.7rem;
 }
 
 body::-webkit-scrollbar:hover {
@@ -265,10 +265,11 @@ p {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 6.5rem;
   font-weight: normal;
   color: black;
@@ -287,14 +288,34 @@ h2 {
   }
 }
 
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 6.5rem;
+  font-weight: normal;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1400px) {
+  h3 {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
 h4 {
   color: white;
   font-family: "Gilroy ExtraBold", system-ui, sans-serif;
   font-weight: normal;
-  font-size: 3.2rem;
+  font-size: 2.5rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   h4 {
     font-size: 2.6rem;
   }
@@ -308,7 +329,7 @@ h4 {
 
 .wrapper {
   width: 82vw;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   position: relative;
 }
@@ -380,7 +401,6 @@ h4 {
 }
 
 .splashDesc {
-  padding-top: 17%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -390,7 +410,7 @@ h4 {
   z-index: 10;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .splashDesc h4 {
     line-height: 4.2rem;
   }
@@ -402,14 +422,14 @@ h4 {
   }
 }
 
-.splashDesc a {
+.splashDesc h4 a {
   color: white;
 }
 
-.splashDesc a:hover {
+.splashDesc h4 a:hover {
   color: #ff2c75;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .splashContact {
@@ -432,6 +452,10 @@ h4 {
   }
 }
 
+.splashContact a {
+  color: #ff2c75;
+}
+
 .splashContact h3 {
   font-family: "Gilroy ExtraBold", system-ui, sans-serif;
   font-weight: normal;
@@ -443,6 +467,10 @@ h4 {
   .splashContact h3 {
     font-size: 3rem;
   }
+}
+
+.splashContact h4 {
+  font-size: 5rem;
 }
 
 .splashContact ul {
@@ -467,8 +495,8 @@ h4 {
 
 .splashContact ul li a:hover {
   color: #ff2c75;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 @media (max-width: 1100px) {
@@ -552,8 +580,8 @@ header li .socialPin:hover {
   color: #ff2c75;
   -webkit-animation-name: bounce-5;
           animation-name: bounce-5;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 @media (max-width: 1100px) {
@@ -818,7 +846,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
-  left: 0;
+  left: -5%;
+  top: 14%;
 }
 
 #rellaxHoldTwo {
@@ -828,8 +857,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
-  top: 68%;
-  right: 40%;
+  top: 73%;
+  right: 55%;
 }
 
 #rellaxHoldThree {
@@ -839,23 +868,23 @@ body {
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
-  bottom: -50%;
-  right: 0;
+  bottom: -45%;
+  right: -5%;
 }
 
-.greyBackgroundCircle {
-  position: absolute;
-  display: block;
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 43%;
-  right: 1%;
+.aboutMeContainer {
+  height: 100%;
 }
 
-@media (max-width: 1400px) {
-  .greyBackgroundCircle {
-    display: none;
-  }
+.aboutMeContainer h3 {
+  font-family: "Gilroy ExtraBold", system-ui, sans-serif;
+  text-transform: none;
+  font-size: 3.2rem;
+}
+
+.aboutMe {
+  width: 100%;
+  line-height: 1.5;
 }
 
 .greyBackgroundSquare {
@@ -864,11 +893,26 @@ body {
   -o-object-fit: contain;
      object-fit: contain;
   width: 40%;
-  left: -15%;
+  right: -8%;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   .greyBackgroundSquare {
+    display: none;
+  }
+}
+
+.greyBackgroundSquareTwo {
+  position: absolute;
+  display: block;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 40%;
+  left: -7%;
+}
+
+@media (max-width: 1200px) {
+  .greyBackgroundSquareTwo {
     display: none;
   }
 }
@@ -880,7 +924,7 @@ body {
   height: 100%;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1250px) {
   .rellaxImg {
     display: none;
   }
@@ -914,7 +958,7 @@ body {
 }
 
 .mainNav .mainMenu .mainItem .mainLink {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: black;
   font-weight: 500;
   font-size: 2rem;
@@ -924,8 +968,8 @@ body {
 
 .mainNav .mainMenu .mainItem .mainLink:hover {
   color: #ff2c75;
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 @media (max-width: 1400px) {
@@ -972,7 +1016,7 @@ body {
 }
 
 .icon-scroll:before {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   background: white;
@@ -1009,7 +1053,7 @@ body {
 }
 
 #lastProject {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 1400px) {
@@ -1025,20 +1069,20 @@ body {
 }
 
 .project {
-  height: 78vh;
+  height: 65vh;
   text-align: end;
 }
 
 .project h4 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 42rem;
-  color: #EBEBEB;
+  color: #ebebeb;
 }
 
 @media (max-width: 1400px) {
   .project h4 {
-    height: 70vh;
+    height: 78vh;
     font-size: 15rem;
   }
 }
@@ -1049,6 +1093,12 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .project {
+    height: 71vh;
   }
 }
 
@@ -1068,6 +1118,7 @@ body {
 .projectDesc {
   max-width: 450px;
   padding: 10px 10px;
+  margin-bottom: 25px;
   z-index: 10;
 }
 
@@ -1081,15 +1132,15 @@ body {
 
 .projectDesc a {
   font-size: 1.9rem;
+  font-weight: 500;
   color: black;
-  margin-right: 20px;
-  padding: 2px 5px 2px 5px;
+  padding: 4px 9px 4px 9px;
 }
 
 .projectDesc a:hover {
   color: white;
-  -webkit-transition: all .6s ease;
-  transition: all .6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .projectDesc .accent {
@@ -1104,7 +1155,7 @@ body {
 }
 
 .resumeContainer {
-  border: 2px solid #ffb2cd;
+  border: 2px solid #ff2c75;
   position: relative;
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
@@ -1146,8 +1197,22 @@ body {
   width: 100%;
 }
 
-#projectButton {
+.buttonHold {
   padding-right: 1px;
+  margin-top: 25px;
+}
+
+#projectButton {
+  margin-left: 20px;
+  background-color: #443b8c;
+  border: 2px solid #443b8c;
+  color: #fff;
+}
+
+#projectButton :hover {
+  color: #ff2c75;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .projectImg {
@@ -1165,7 +1230,7 @@ body {
 
 .imageHold {
   position: relative;
-  max-width: 650px;
+  max-width: 525px;
   z-index: 10;
   margin-left: 100px;
   -webkit-box-shadow: 2px 30px 30px #b2b2b8;
@@ -1189,7 +1254,7 @@ body {
 
 .imageHoldTwo {
   position: relative;
-  max-width: 650px;
+  max-width: 525px;
   z-index: 10;
   margin-right: 100px;
   -webkit-box-shadow: 2px 30px 30px #b2b2b8;
@@ -1252,7 +1317,7 @@ form {
   margin-right: 7px;
 }
 
-.formList input[name=contact] {
+.formList input[name="contact"] {
   background: none;
   border: none;
   outline: none;
@@ -1281,13 +1346,14 @@ form {
   letter-spacing: 1.4px;
 }
 
-.formList input[name=contact]:focus, .formList textarea:focus {
+.formList input[name="contact"]:focus,
+.formList textarea:focus {
   outline: 1px solid pink;
   background: #ff5f96;
   border: none;
 }
 
-.formList input[type=submit] {
+.formList input[type="submit"] {
   color: #ff2c75;
   background: none;
   outline: none;
@@ -1310,8 +1376,10 @@ form {
   transition: all 0.45s;
 }
 
-.skillsPage .splashDesc {
-  padding-top: 5%;
+@media (max-width: 1000px) {
+  .skills {
+    display: none;
+  }
 }
 
 .skillsPage .splashDesc .skillsDesc {
@@ -1323,7 +1391,7 @@ form {
   width: 100%;
   height: 100%;
   z-index: 10;
-  margin-top: 80px;
+  margin-top: 20px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -1352,9 +1420,10 @@ form {
 }
 
 .iconContainerIcon {
-  width: calc(100% / 6);
+  margin-top: 20px;
+  width: calc(100% / 3);
   color: white;
-  font-size: 5.5rem;
+  font-size: 4rem;
   text-align: center;
 }
 
@@ -1380,6 +1449,6 @@ form {
 
 @media (max-width: 550px) {
   .iconContainer {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
