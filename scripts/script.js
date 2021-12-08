@@ -1,7 +1,7 @@
 // aos animations init //
 AOS.init({
-  duration: 1600,
-})
+  duration: 1400,
+});
 
 var $menu = $(".Menu-list"),
   $item = $(".Menu-list-item"),
@@ -50,5 +50,4 @@ $(window).on("mousemove", function (e) {
 });
 
 // for the relax images in the project section //
-var rellax = new Rellax('.rellax');
-
+var rellax = new Rellax(".rellax");

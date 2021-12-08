@@ -406,7 +406,7 @@ h4 {
 }
 
 .splashDesc h4 {
-  line-height: 5.5rem;
+  line-height: 5.6rem;
   z-index: 10;
 }
 
@@ -884,7 +884,18 @@ body {
 
 .aboutMe {
   width: 100%;
-  line-height: 1.5;
+  line-height: 1.4;
+}
+
+.aboutMe h1 {
+  font-family: "Gilroy ExtraBold", system-ui, sans-serif;
+  text-transform: none;
+  font-size: 3.5rem;
+  color: #ff2c75;
+}
+
+.aboutMe h4 {
+  padding-right: 1rem;
 }
 
 .greyBackgroundSquare {
@@ -1069,7 +1080,7 @@ body {
 }
 
 .project {
-  height: 65vh;
+  height: 58vh;
   text-align: end;
 }
 
