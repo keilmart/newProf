@@ -21,8 +21,8 @@
   height: 10%;
   display: flex;
   z-index: 1;
-  bottom: -45%;
-  right: -5%;
+  bottom: -48%;
+  right: 12%;
 }
 
 .aboutMeContainer {
@@ -41,7 +41,16 @@
 
   .aboutMeContent {
     width: 500px;
-    padding: 4rem 0 0 5rem;
+    padding: 4rem 0 0 7.1rem;
+
+    @media (max-width: 950px) {
+      padding: 0 0 3rem 1rem;
+    }
+
+    @media (max-width: 750px) {
+      width: 100%;
+      padding: 0 0 3rem 1.3rem;
+    }
 
     h1 {
       height: 90px;
@@ -52,6 +61,10 @@
       text-transform: uppercase;
       letter-spacing: 0.4rem;
       font-weight: normal;
+
+      @media (max-width: 750px) {
+        font-size: 5.95rem;
+      }
     }
 
     h2 {
@@ -62,6 +75,12 @@
       font-size: 5rem;
       color: $white-color;
       letter-spacing: 0.1rem;
+
+      @media (max-width: 750px) {
+        height: 40px;
+        line-height: 40px;
+        font-size: 4rem;
+      }
     }
 
     .paraContent {
@@ -77,11 +96,11 @@
         background-color: $split-color;
         border: 2px solid $split-color;
         color: #fff;
+      }
 
-        :hover {
-          color: $black-color;
-          transition: all 0.6s ease;
-        }
+      :hover {
+        color: $black-color;
+        transition: all 0.6s ease;
       }
     }
   }
@@ -256,7 +275,7 @@
   }
 
   @media (max-width: 600px) {
-    height: 71vh;
+    height: 75vh;
   }
 }
 
