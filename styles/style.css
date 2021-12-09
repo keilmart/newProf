@@ -312,7 +312,7 @@ h4 {
   color: white;
   font-family: "Gilroy ExtraBold", system-ui, sans-serif;
   font-weight: normal;
-  font-size: 2.5rem;
+  font-size: 2.9rem;
 }
 
 @media (max-width: 1400px) {
@@ -1171,7 +1171,7 @@ body {
 
 @media (max-width: 600px) {
   .project {
-    height: 75vh;
+    height: 73vh;
   }
 }
 
@@ -1453,7 +1453,7 @@ form {
   width: 100%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .skills {
     display: none;
   }
