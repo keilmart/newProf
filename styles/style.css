@@ -869,7 +869,7 @@ body {
   display: flex;
   z-index: 1;
   bottom: -48%;
-  right: 12%;
+  right: 13%;
 }
 
 .aboutMeContainer {
@@ -889,7 +889,7 @@ body {
 
 .aboutMe .aboutMeContent {
   width: 500px;
-  padding: 4rem 0 0 7.1rem;
+  padding: 8rem 0 0 7.1rem;
 }
 
 @media (max-width: 950px) {
@@ -919,6 +919,7 @@ body {
 @media (max-width: 750px) {
   .aboutMe .aboutMeContent h1 {
     font-size: 5.8rem;
+    letter-spacing: 0.2rem;
   }
 }
 
