@@ -27,6 +27,7 @@
 
 .aboutMeContainer {
   height: 100%;
+  min-height: 775px;
 
   h3 {
     font-family: "Gilroy ExtraBold", system-ui, sans-serif;
@@ -37,20 +38,54 @@
 
 .aboutMe {
   width: 100%;
-  line-height: 1.5;
+
+  .aboutMeContent {
+    width: 500px;
+    padding: 4rem 0 0 5rem;
+
+    h1 {
+      height: 90px;
+      line-height: 90px;
+      font-family: "Anton", sans-serif;
+      font-size: 8.4rem;
+      color: $split-color;
+      text-transform: uppercase;
+      letter-spacing: 0.4rem;
+      font-weight: normal;
+    }
+
+    h2 {
+      margin: 0.4rem 0;
+      height: 50px;
+      line-height: 50px;
+      font-family: "Anton", sans-serif;
+      font-size: 5rem;
+      color: $white-color;
+      letter-spacing: 0.1rem;
+    }
+
+    .paraContent {
+      margin-top: 1.5rem;
+    }
+
+    .aboutButtonHold {
+      margin-top: 2.2rem;
+
+      .aboutButton {
+        font-size: 1.4rem;
+        padding: 0.4rem;
+        background-color: $split-color;
+        border: 2px solid $split-color;
+        color: #fff;
+
+        :hover {
+          color: $black-color;
+          transition: all 0.6s ease;
+        }
+      }
+    }
+  }
 }
-
-// .greyBackgroundCircle {
-//   position: absolute;
-//   display: block;
-//   object-fit: contain;
-//   width: 43%;
-//   right: -14%;
-
-//   @media (max-width: 1400px) {
-//     display: none;
-//   }
-// }
 
 .greyBackgroundSquare {
   position: absolute;
@@ -104,9 +139,9 @@
       height: 50px;
 
       .mainLink {
-        font-family: "Oswald", sans-serif;
+        font-family: "Anton", sans-serif;
         color: $black-color;
-        font-weight: 500;
+        // font-weight: 500;
         font-size: 2rem;
         z-index: 1000;
         position: relative;
@@ -201,12 +236,12 @@
 }
 
 .project {
-  height: 65vh;
+  height: 58vh;
   text-align: end;
 
   h4 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
+    font-family: "Anton", sans-serif;
+    // font-weight: 500;
     font-size: 42rem;
     color: #ebebeb;
 

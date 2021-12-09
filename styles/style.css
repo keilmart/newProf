@@ -269,7 +269,7 @@ a {
 }
 
 h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 6.5rem;
   font-weight: normal;
   color: black;
@@ -289,7 +289,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 6.5rem;
   font-weight: normal;
   color: white;
@@ -874,6 +874,7 @@ body {
 
 .aboutMeContainer {
   height: 100%;
+  min-height: 775px;
 }
 
 .aboutMeContainer h3 {
@@ -884,18 +885,54 @@ body {
 
 .aboutMe {
   width: 100%;
-  line-height: 1.4;
 }
 
-.aboutMe h1 {
-  font-family: "Gilroy ExtraBold", system-ui, sans-serif;
-  text-transform: none;
-  font-size: 3.5rem;
+.aboutMe .aboutMeContent {
+  width: 500px;
+  padding: 4rem 0 0 5rem;
+}
+
+.aboutMe .aboutMeContent h1 {
+  height: 90px;
+  line-height: 90px;
+  font-family: "Anton", sans-serif;
+  font-size: 8.4rem;
   color: #ff2c75;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: normal;
 }
 
-.aboutMe h4 {
-  padding-right: 1rem;
+.aboutMe .aboutMeContent h2 {
+  margin: 0.4rem 0;
+  height: 50px;
+  line-height: 50px;
+  font-family: "Anton", sans-serif;
+  font-size: 5rem;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+.aboutMe .aboutMeContent .paraContent {
+  margin-top: 1.5rem;
+}
+
+.aboutMe .aboutMeContent .aboutButtonHold {
+  margin-top: 2.2rem;
+}
+
+.aboutMe .aboutMeContent .aboutButtonHold .aboutButton {
+  font-size: 1.4rem;
+  padding: 0.4rem;
+  background-color: #ff2c75;
+  border: 2px solid #ff2c75;
+  color: #fff;
+}
+
+.aboutMe .aboutMeContent .aboutButtonHold .aboutButton :hover {
+  color: black;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .greyBackgroundSquare {
@@ -969,9 +1006,8 @@ body {
 }
 
 .mainNav .mainMenu .mainItem .mainLink {
-  font-family: "Oswald", sans-serif;
+  font-family: "Anton", sans-serif;
   color: black;
-  font-weight: 500;
   font-size: 2rem;
   z-index: 1000;
   position: relative;
@@ -1085,8 +1121,7 @@ body {
 }
 
 .project h4 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-family: "Anton", sans-serif;
   font-size: 42rem;
   color: #ebebeb;
 }
@@ -1385,6 +1420,10 @@ form {
   border: 1px solid black;
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
+}
+
+.skills {
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
