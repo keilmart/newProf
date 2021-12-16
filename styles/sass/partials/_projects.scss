@@ -256,28 +256,19 @@
 }
 
 .project {
-  height: 58vh;
+  height: 55vh;
   text-align: end;
   min-height: 425px;
 
   h4 {
     font-family: "Anton", sans-serif;
-    // font-weight: 500;
     font-size: 42rem;
     color: #ebebeb;
-
-    @media (max-width: 1400px) {
-      height: 78vh;
-      font-size: 15rem;
-    }
   }
 
   @media (max-width: 1100px) {
+    height: 65vh;
     flex-direction: column-reverse;
-  }
-
-  @media (max-width: 600px) {
-    height: 73vh;
   }
 }
 
@@ -319,9 +310,8 @@
     color: $split-color;
   }
 
-  @media (max-width: 1250px) {
+  @media (max-width: 1100px) {
     min-width: 355px;
-    // margin-bottom: 45px;
     text-align: center;
   }
 }
