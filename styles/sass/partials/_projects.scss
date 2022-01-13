@@ -12,13 +12,13 @@
   height: 10%;
   display: flex;
   z-index: 1;
-  top: 73%;
-  right: 55%;
+  top: 81.5%;
+  right: 48%;
 }
 
 #rellaxHoldThree {
   position: absolute;
-  height: 10%;
+  height: 9%;
   display: flex;
   z-index: 1;
   bottom: -48%;
@@ -341,7 +341,7 @@
 
 .resumeButton {
   position: relative;
-  z-index: 2;
+  z-index: 10;
 }
 
 .resumeContainer:after {
@@ -384,6 +384,7 @@
 }
 
 .projectImg {
+  z-index: 1000;
   max-width: 100%;
   box-shadow: -5px 30px 30px #d3d3d3;
 

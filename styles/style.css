@@ -362,6 +362,7 @@ h4 {
 }
 
 .mainBackground {
+  z-index: 1000;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -380,7 +381,7 @@ h4 {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 .mainSplash .wrapper {
@@ -864,13 +865,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   z-index: 1;
-  top: 73%;
-  right: 55%;
+  top: 81.5%;
+  right: 48%;
 }
 
 #rellaxHoldThree {
   position: absolute;
-  height: 10%;
+  height: 9%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1242,7 +1243,7 @@ body {
 
 .resumeButton {
   position: relative;
-  z-index: 2;
+  z-index: 10;
 }
 
 .resumeContainer:after {
@@ -1286,6 +1287,7 @@ body {
 }
 
 .projectImg {
+  z-index: 1000;
   max-width: 100%;
   -webkit-box-shadow: -5px 30px 30px #d3d3d3;
           box-shadow: -5px 30px 30px #d3d3d3;
