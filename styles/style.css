@@ -902,14 +902,14 @@ body {
 
 @media (max-width: 1050px) {
   .aboutMe .aboutMeContent {
-    padding: 0 0 3rem 1rem;
+    padding: 0 0 1rem 1rem;
   }
 }
 
 @media (max-width: 750px) {
   .aboutMe .aboutMeContent {
     width: 100%;
-    padding: 0 0 3rem 1.3rem;
+    padding: 0 0 1rem 1.3rem;
   }
 }
 
@@ -1349,27 +1349,95 @@ body {
 }
 
 .contactSection {
-  width: 60%;
+  width: 100%;
   height: 100%;
+  min-height: 775px;
   z-index: 10;
 }
 
-@media (max-width: 800px) {
-  .contactSection {
-    width: 80%;
+.contactSection .contactContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1050px) {
+  .contactSection .contactContainer {
+    display: none;
   }
 }
 
-form {
+.contactSection .contactContainer .contactContent {
+  max-width: 440px;
+}
+
+.contactSection .contactContainer .contactContent h1 {
+  height: 90px;
+  line-height: 90px;
+  font-family: "Anton", sans-serif;
+  font-size: 8.4rem;
+  color: #ff2c75;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: normal;
+}
+
+@media (max-width: 750px) {
+  .contactSection .contactContainer .contactContent h1 {
+    font-size: 5.8rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+.contactSection .contactContainer .contactContent h2 {
+  margin: 0.4rem 0;
+  height: 50px;
+  line-height: 50px;
+  font-family: "Anton", sans-serif;
+  font-size: 5rem;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 750px) {
+  .contactSection .contactContainer .contactContent h2 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 4rem;
+  }
+}
+
+.contactSection .contactContainer .contactContent .paraContent {
+  margin-top: 1.5rem;
+}
+
+.contactSection form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   width: 100%;
 }
 
-.formList {
+.contactSection .formList {
   list-style: none;
-  padding: 0;
+  padding: 4rem 0 0 0;
+  width: 80%;
 }
 
-.formList li {
+@media (max-width: 1050px) {
+  .contactSection .formList {
+    width: 100%;
+  }
+}
+
+.contactSection .formList li {
   margin: 10px 0 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1379,17 +1447,13 @@ form {
           align-items: flex-end;
 }
 
-.formList li:nth-child(4) {
-  margin-top: 50px;
-}
-
-.formList li label {
+.contactSection .formList li label {
   color: offWhite;
   font-size: 1.8rem;
   margin-right: 7px;
 }
 
-.formList input[name="contact"] {
+.contactSection .formList input[name="contact"] {
   background: none;
   border: none;
   outline: none;
@@ -1403,7 +1467,7 @@ form {
   border-bottom: 1px solid white;
 }
 
-.formList textarea {
+.contactSection .formList textarea {
   background: none;
   outline: none;
   padding: 10px 5px;
@@ -1418,14 +1482,7 @@ form {
   letter-spacing: 1.4px;
 }
 
-.formList input[name="contact"]:focus,
-.formList textarea:focus {
-  outline: 1px solid pink;
-  background: #ff5f96;
-  border: none;
-}
-
-.formList input[type="submit"] {
+.contactSection .formList input[type="submit"] {
   color: #ff2c75;
   background: none;
   outline: none;
@@ -1439,13 +1496,24 @@ form {
   font-weight: bold;
 }
 
-.formList input:hover {
+.contactSection .formList input:hover {
   height: 100%;
   color: white;
   background: #ff2c75;
   border: 1px solid black;
   -webkit-transition: all 0.45s;
   transition: all 0.45s;
+}
+
+.contactSection .formList li:nth-child(4) {
+  margin-top: 50px;
+}
+
+.contactSection .formList input[name="contact"]:focus,
+.contactSection .formList textarea:focus {
+  outline: 1px solid pink;
+  background: #ff5f96;
+  border: none;
 }
 
 .skills {
