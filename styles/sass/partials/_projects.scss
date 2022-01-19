@@ -47,18 +47,20 @@
 
 .aboutMe {
   width: 100%;
+  display: flex;
+  justify-content: center;
 
   .aboutMeContent {
     width: 500px;
-    padding: 8rem 0 0 7.1rem;
+    padding: 4rem 0 0rem 2rem;
 
-    @media (max-width: 1050px) {
-      padding: 0 0 1rem 1rem;
+    @media (max-width: 1000px) {
+      padding: 0 0 1rem 0;
     }
 
     @media (max-width: 750px) {
       width: 100%;
-      padding: 0 0 1rem 1.3rem;
+      padding: 0 0 4rem 0;
     }
 
     h1 {
@@ -440,12 +442,13 @@
     display: flex;
     justify-content: center;
 
-    @media (max-width: 1050px) {
+    @media (max-width: 1000px) {
       display: none;
     }
 
     .contactContent {
       max-width: 440px;
+      padding-bottom: 5rem;
 
       h1 {
         height: 90px;
@@ -496,7 +499,7 @@
     padding: 2rem 0 0 0;
     width: 80%;
 
-    @media (max-width: 1050px) {
+    @media (max-width: 1000px) {
       width: 100%;
     }
 

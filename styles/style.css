@@ -925,23 +925,29 @@ body {
 
 .aboutMe {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .aboutMe .aboutMeContent {
   width: 500px;
-  padding: 8rem 0 0 7.1rem;
+  padding: 4rem 0 0rem 2rem;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
   .aboutMe .aboutMeContent {
-    padding: 0 0 1rem 1rem;
+    padding: 0 0 1rem 0;
   }
 }
 
 @media (max-width: 750px) {
   .aboutMe .aboutMeContent {
     width: 100%;
-    padding: 0 0 1rem 1.3rem;
+    padding: 0 0 4rem 0;
   }
 }
 
@@ -1397,7 +1403,7 @@ body {
           justify-content: center;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
   .contactSection .contactContainer {
     display: none;
   }
@@ -1405,6 +1411,7 @@ body {
 
 .contactSection .contactContainer .contactContent {
   max-width: 440px;
+  padding-bottom: 5rem;
 }
 
 .contactSection .contactContainer .contactContent h1 {
@@ -1463,7 +1470,7 @@ body {
   width: 80%;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
   .contactSection .formList {
     width: 100%;
   }
@@ -1552,7 +1559,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
   .skills {
     display: none;
   }
