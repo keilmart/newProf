@@ -537,6 +537,19 @@ h4 {
   background-color: #ff2c75;
 }
 
+.headerBackground {
+  z-index: 1000;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  background: rgba(84, 72, 173, 0.3);
+}
+
+.headerBackground p {
+  font-size: 1.9rem;
+}
+
 header {
   height: 100vh;
   position: relative;
@@ -737,6 +750,25 @@ body {
 .Menu-list-item:active::before {
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myVideo {
+  position: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 @-webkit-keyframes Gradient {
@@ -1427,7 +1459,7 @@ body {
 
 .contactSection .formList {
   list-style: none;
-  padding: 4rem 0 0 0;
+  padding: 2rem 0 0 0;
   width: 80%;
 }
 
