@@ -1202,6 +1202,16 @@ body {
 
 @media (max-width: 1100px) {
   .project {
+    min-height: 65vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 500px) {
+  .project {
     min-height: 77vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
