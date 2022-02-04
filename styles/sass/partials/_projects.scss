@@ -278,7 +278,7 @@
   }
 
   @media (max-width: 1100px) {
-    height: 65vh;
+    min-height: 65vh;
     flex-direction: column-reverse;
   }
 }
