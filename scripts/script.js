@@ -1,6 +1,7 @@
 // aos animations init //
 AOS.init({
   duration: 1700,
+  disable: "mobile",
 });
 
 var $menu = $(".Menu-list"),
