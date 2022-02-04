@@ -944,6 +944,12 @@ body {
   }
 }
 
+@media (max-width: 750px) {
+  .aboutMe .aboutMeContent {
+    width: 100%;
+  }
+}
+
 .aboutMe .aboutMeContent h1 {
   height: 90px;
   line-height: 90px;
